@@ -1,4 +1,8 @@
 .env
+/db/
+.streamlit/
+.vscode/
+/venv/
 
 __pychache__/
 *.pyc
