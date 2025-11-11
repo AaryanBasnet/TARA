@@ -1,4 +1,0 @@
-- **Description:** Ammunition, securely packaged in quantities not exceeding 5 kg gross weight per person for that person’s own use. Allowances for more than one person must not be combined into one or more packages.
-- **Operator Approval Required:** YES
-- **Permitted in Checked Baggage:** YES
-- **Permitted in Carry-on Baggage:** NO

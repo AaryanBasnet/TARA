@@ -1,4 +1,0 @@
-- **Description:** Lithium-ion batteries for portable (including medical) electronic devices, a Wh rating exceeding 100 Wh but not exceeding 160 Wh. For portable medical electronic devices only, lithium metal batteries with a lithium content exceeding 2 g but not exceeding 8 g.
-- **Operator Approval Required:** YES
-- **Permitted in Checked Baggage:** YES
-- **Permitted in Carry-on Baggage:** YES

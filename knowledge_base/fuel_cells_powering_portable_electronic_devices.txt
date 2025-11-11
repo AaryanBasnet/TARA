@@ -1,4 +1,0 @@
-- **Description:** Fuel cells containing fuel, powering portable electronic devices (e.g. cameras, cellular phones, laptop computers and camcorders).
-- **Operator Approval Required:** NO
-- **Permitted in Checked Baggage:** NO
-- **Permitted in Carry-on Baggage:** YES

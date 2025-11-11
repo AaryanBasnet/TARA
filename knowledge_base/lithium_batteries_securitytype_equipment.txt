@@ -1,4 +1,0 @@
-- **Description:** Security-type equipment containing lithium batteries.
-- **Operator Approval Required:** YES
-- **Permitted in Checked Baggage:** YES
-- **Permitted in Carry-on Baggage:** NO

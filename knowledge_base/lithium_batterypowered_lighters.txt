@@ -1,4 +1,0 @@
-- **Description:** Battery-powered lighters powered by a lithium-ion or lithium metal battery (e.g. laser plasma lighters, tesla coil lighters, flux lighters, arc lighters and double arc lighters) without a safety cap or means of protection against unintentional activation.
-- **Operator Approval Required:** FORBIDDEN
-- **Permitted in Checked Baggage:** FORBIDDEN
-- **Permitted in Carry-on Baggage:** FORBIDDEN

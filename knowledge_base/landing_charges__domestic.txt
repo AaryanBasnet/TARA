@@ -1,4 +1,0 @@
-When an aircraft is landed in this airport the operator should pay the landing charge according to the following table.
-
-- Upto 10,000 Kgs: Rs. 55.00 (Per 1000 Kgs)
-- 10,001 Kgs - 25,000 Kgs: Rs. 550.00 (First 10,000 Kgs) + Rs. 110.00 (After 10,000 Per 1000)
