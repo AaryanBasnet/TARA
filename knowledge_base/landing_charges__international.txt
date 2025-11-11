@@ -1,0 +1,8 @@
+When an aircraft is landed in this airport the operator should pay the landing charge according to the following table.
+
+- Upto 10,000 Kgs: US$ 1.25 (Per 1000 Kgs)
+- 10,001 Kgs - 25,000 Kgs: US$ 12.25 (First 10,000 Kgs) + US$ 2.50 (After 10,000 Per 1000)
+- 25,001 Kgs - 50,000 Kgs: US$ 49.00 (First 25,000 Kgs) + US$ 3.75 (After 25,000 Per 1000)
+- 50,001 Kgs - 75,000 Kgs: US$ 140.50 (First 50,000 Kgs) + US$ 6.00 (After 50,000 Per 1000)
+- 75,001 Kgs - 1,00,000 Kgs: US$ 293.25 (First 75,000 Kgs) + US$ 7.35 (After 75,000 Per 1000)
+- Above 1,00,000 Kgs: US$ 475.00 (First 1,00,000 Kgs) + US$ 8.55 (After 1,00,000 Per 1000)

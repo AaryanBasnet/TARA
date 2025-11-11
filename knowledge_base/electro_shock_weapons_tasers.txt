@@ -1,0 +1,4 @@
+- **Description:** Electro shock weapons (e.g. Tasers) containing dangerous goods such as explosives, compressed gases, lithium batteries, etc. are forbidden in carry-on baggage or checked baggage or on the person.
+- **Operator Approval Required:** FORBIDDEN
+- **Permitted in Checked Baggage:** FORBIDDEN
+- **Permitted in Carry-on Baggage:** FORBIDDEN

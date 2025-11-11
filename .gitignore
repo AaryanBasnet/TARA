@@ -1,0 +1,18 @@
+# Ignore Python's virtual environment
+/venv/
+/__pycache__/
+
+# Ignore the (CRITICAL) secrets file
+.env
+
+# Ignore the local vector database
+/db/
+
+# Ignore Streamlit's secrets file
+.streamlit/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore PyCharm/IntelliJ project files
+/.idea/

@@ -1,0 +1,4 @@
+Tribhuvan International Airport has the following terminals:
+* International Terminal (Departure and Arrival)
+* Domestic Terminal (Departure and Arrival)
+* Cargo Terminal

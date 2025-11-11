@@ -1,0 +1,21 @@
+DESCRIPTION:
+- Issued to foreigners having direct relation with Nepalese.
+- Issued to relatives of foreigners having marital relation with Nepali citizen.
+
+ISSUED BY: Department of Immigration
+
+FEE (USD):
+- 10 USD per month for foreigners having direct relation with Nepalese.
+- 25 USD per month for relatives of foreigners having marital relation with Nepali citizen.
+- Additional 20 USD for single re-entry facility.
+- Additional 60 USD for multiple re-entry facility.
+
+REQUIRED DOCUMENT:
+- Valid Passport
+- Relation Certificate issued by local bodies establishing relationship with Nepali kin (related to applicant by blood) along with supporting documents to verify their relationship.
+- Citizenship Certificate of kin
+- Relation Verifying other documents such as birth certificate
+- Physical presence of the kin for the verification formalities
+
+WHO CAN APPLY & HOW:
+- Applicant can apply from the online portal: https://nepaliport.immigration.gov.np/

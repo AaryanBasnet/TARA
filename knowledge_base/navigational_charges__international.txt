@@ -1,0 +1,6 @@
+When an aircraft is operated through this airport the operator should pay the navigation charge according to the following table.
+
+- UGpto 25,000 Kgs: US$ 45.90 (Flat)
+- 25,001 Kgs - 50,000 Kgs: US$ 76.50 (Flat)
+- 50,001 Kgs - 75,000 Kgs: US$ 152.75 (Flat)
+- Above 75,000 Kgs: US$ 305.50 (Flat)

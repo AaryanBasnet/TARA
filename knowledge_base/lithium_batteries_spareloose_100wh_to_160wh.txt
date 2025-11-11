@@ -1,0 +1,6 @@
+- **Description:** Lithium batteries, spare/loose, including power banks (see Batteries, spare/loose) with a Watt-hour rating exceeding 100 Wh but not exceeding 160 Wh for consumer electronic devices and PMED or with a lithium content exceeding 2 g but not exceeding 8 g for PMED only. Maximum of two spare batteries in carry-on baggage only. These batteries must be individually protected to prevent short circuits.
+- **Formula:** Amps (AH) X Voltage (V) = Watt hour (Wh). Example (14000 mAh 12 Volt) 14000/1000 (Ah) X 12 (V) = 168 Wh.
+- **Nepal Airlines Note:** For all Nepal Airlines flight, any power banks with rated power exceeding 160 Wh or power banks without clear rating identification are not allowed to be carried on board.
+- **Operator Approval Required:** YES
+- **Permitted in Checked Baggage:** NO
+- **Permitted in Carry-on Baggage:** YES

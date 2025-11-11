@@ -1,0 +1,15 @@
+DESCRIPTION:
+- Issued to US Journalists and their dependents with 5 years visa.
+
+ISSUED BY: Department of Immigration
+
+FEE (USD): 160 USD
+
+REQUIRED DOCUMENT:
+- Recommendation letter from Department of Information
+- Identity card issued by Nepal Press Council
+- Valid Passport
+- Other supporting documents, if required
+
+WHO CAN APPLY & HOW:
+- Applicant can apply from the online portal: https://nepaliport.immigration.gov.np/
