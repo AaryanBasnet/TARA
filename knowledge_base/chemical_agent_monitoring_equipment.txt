@@ -1,0 +1,4 @@
+- **Description:** Chemical Agent Monitoring Equipment, when carried by staff members of the Organization for the Prohibition of Chemical Weapons on official travel.
+- **Operator Approval Required:** YES
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** YES

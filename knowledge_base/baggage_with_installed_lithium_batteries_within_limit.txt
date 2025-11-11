@@ -1,0 +1,4 @@
+- **Description:** Non-removable batteries: Batteries must contain no more than 0.3g lithium metal or for lithium-ion must not exceed 2.7Wh. Removable batteries: Batteries must be removed if baggage is to be checked in. Removable batteries must be carried in the cabin.
+- **Operator Approval Required:** NO
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** YES

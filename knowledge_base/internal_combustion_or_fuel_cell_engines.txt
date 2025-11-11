@@ -1,0 +1,4 @@
+- **Description:** Internal combustion or fuel cell engines.
+- **Operator Approval Required:** NO
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** NO

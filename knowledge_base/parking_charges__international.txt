@@ -1,0 +1,5 @@
+When an aircraft is parked no Parking Charges shall be levied for the first 3 hrs. Provided that the period of parking exceeds 3 hrs, then 6 each hrs will make one parking unit. Charge will be charged as 25% of one parking at a time but Aircraft must be...
+
+- Upto 10,000 Kgs: US$ 1.00 (Per 1000 Kgs)
+- 10,000 Kgs - 1,00,000 Kgs: US$ 49.00 (First 50,000 Kgs) + US$ 1.05 (After 50,000 Per 1000)
+- Above 1,00,000 Kgs: US$ 122.25 (First 1,00,000 Kgs) + US$ 1.95 (After 1,00,000 Per 1000)

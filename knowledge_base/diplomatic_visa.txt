@@ -1,0 +1,18 @@
+DESCRIPTION:
+- Issued to a person holding a diplomatic passport issued from any country and recommended from the concerned diplomatic mission for the diplomatic visa.
+- Issued to a person considered eligible to grant diplomatic privileges by Government of Nepal (GoN) and the family members of such person holding the diplomatic passport.
+
+ISSUED BY:
+- Department of Consular Services
+- 30-Days entry visa is issued by Embassies of Nepal or by Immigration offices at entry points.
+
+FEE (USD): Free of Cost
+
+REQUIRED DOCUMENT:
+- Valid Diplomatic Passport
+- Diplomatic Mission Note and Recommendation
+- Other supporting documents, if required
+
+WHO CAN APPLY & HOW:
+- Diplomats and their dependents with diplomatic passports can apply to the Department of Consular Services via: https://nepalconsular.gov.np/diplomatic/public/
+- Diplomats and their dependents with diplomatic passports can apply for 30 days entry visa from the online portal: https://nepaliport.immigration.gov.np/

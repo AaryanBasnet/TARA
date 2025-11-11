@@ -1,0 +1,183 @@
+---
+Topic: Guide to Dangerous Goods
+Dangerous goods are articles and substances, which pose significant risk, health, safety and property. Therefore, their carriage is strictly controlled by International Dangerous Goods Regulations, which specify the conditions under which dangerous goods can be transported without risking the safety of people and property.
+Dangerous goods must not be carried in or as guests or crew, checked or carry-on baggage, except as otherwise provided below. Dangerous Goods permitted in carry-on baggage are also “on one’s person”, except where otherwise specified.
+
+---
+Topic: Alcoholic beverages
+- **Description:** Alcoholic beverages, when in retail packagings, containing more than 24% but not more than 70% alcohol by volume, in receptacles not exceeding 5 L, with a total net quantity per person of 5 L.
+- **Operator Approval Required:** NO
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** YES
+
+---
+Topic: Ammunition
+- **Description:** Ammunition, securely packaged in quantities not exceeding 5 kg gross weight per person for that person’s own use. Allowances for more than one person must not be combined into one or more packages.
+- **Operator Approval Required:** YES
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** NO
+
+---
+Topic: Avalanche rescue backpack
+- **Description:** Avalanche rescue backpack, one (1) per person, containing a cartridge of compressed gas in Div.2.2. May also be equipped with a pyrotechnic trigger mechanism containing no more than 200 mg net of Div.1.4S. The backpack must be packed in such a manner that it cannot be accidentally activated. The airbags within the backpacks must be fitted with pressure relief valves.
+- **Operator Approval Required:** YES
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** YES
+
+---
+Topic: Baggage with installed lithium batteries (Exceeding Limit)
+- **Description:** Baggage with installed lithium batteries non-removable batteries exceeding 0.3g lithium metal or 2.7Wh.
+- **Operator Approval Required:** FORBIDDEN
+- **Permitted in Checked Baggage:** FORBIDDEN
+- **Permitted in Carry-on Baggage:** FORBIDDEN
+
+---
+Topic: Baggage with installed lithium batteries (Within Limit)
+- **Description:** Non-removable batteries: Batteries must contain no more than 0.3g lithium metal or for lithium-ion must not exceed 2.7Wh. Removable batteries: Batteries must be removed if baggage is to be checked in. Removable batteries must be carried in the cabin.
+- **Operator Approval Required:** NO
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** YES
+
+---
+Topic: Batteries, spare/loose (including power banks)
+- **Description:** Batteries, spare/loose, including lithium batteries, non-spillable batteries, nickel-metal hydride batteries and dry batteries for portable electronic devices must be carried in carry-on baggage only. Articles which have the primary purpose as a power source, e.g. power banks are considered as spare batteries. These batteries must be individually protected to prevent short circuits.
+- **Lithium metal batteries:** the lithium metal content must not exceed 2 g.
+- **Lithium-ion batteries:** the Watt-hour rating must not exceed 100 Wh.
+- Each person is limited to a maximum of 20 spare batteries.
+- **Non-spillable batteries:** must be 12 V or less and 100 Wh or less. Each person is limited to a maximum of 2 spare batteries.
+- **Nepal Airlines Note:** For all Nepal Airlines flights, the use of power bank and/or spare batteries on board all RA aircrafts is prohibited. The said devices must not be used to charge another electronic device or to be charged inflight. The Damage batteries are forbidden.
+- **Operator Approval Required:** NO
+- **Permitted in Checked Baggage:** NO
+- **Permitted in Carry-on Baggage:** YES
+
+---
+Topic: Camping stoves and fuel containers
+- **Description:** Camping stoves and fuel containers that have contained a flammable liquid fuel, with empty fuel tank and/or fuel container.
+- **Operator Approval Required:** YES
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** NO
+
+---
+Topic: Chemical Agent Monitoring Equipment
+- **Description:** Chemical Agent Monitoring Equipment, when carried by staff members of the Organization for the Prohibition of Chemical Weapons on official travel.
+- **Operator Approval Required:** YES
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** YES
+
+---
+Topic: Disabling devices (mace, pepper spray)
+- **Description:** Disabling devices such as mace, pepper spray, etc. containing an irritant or incapacitating substance are forbidden on the person, in checked-in and carry-on baggage.
+- **Operator Approval Required:** FORBIDDEN
+- **Permitted in Checked Baggage:** FORBIDDEN
+- **Permitted in Carry-on Baggage:** FORBIDDEN
+
+---
+Topic: Dry ice (carbon dioxide, solid)
+- **Description:** Dry ice (carbon dioxide, solid), in quantities not exceeding 2.5 kg per person when used to pack perishables not subject to these Regulations in checked or carry-on baggage, provided the baggage (package) permits the release of carbon dioxide gas. Checked baggage must be marked “dry ice” or “carbon dioxide, solid” and with the net weight of dry ice or an indication that there is 2.5 kg or less dry ice.
+- **Operator Approval Required:** YES
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** YES
+
+---
+Topic: e-cigarettes
+- **Description:** e-cigarettes (including e-cigars, e-pipes, other personal vaporizers) containing batteries must be individually protected to prevent accidental activation.
+- **Operator Approval Required:** NO
+- **Permitted in Checked Baggage:** NO
+- **Permitted in Carry-on Baggage:** YES
+
+---
+Topic: Electro shock weapons (Tasers)
+- **Description:** Electro shock weapons (e.g. Tasers) containing dangerous goods such as explosives, compressed gases, lithium batteries, etc. are forbidden in carry-on baggage or checked baggage or on the person.
+- **Operator Approval Required:** FORBIDDEN
+- **Permitted in Checked Baggage:** FORBIDDEN
+- **Permitted in Carry-on Baggage:** FORBIDDEN
+
+---
+Topic: Fuel cells powering portable electronic devices
+- **Description:** Fuel cells containing fuel, powering portable electronic devices (e.g. cameras, cellular phones, laptop computers and camcorders).
+- **Operator Approval Required:** NO
+- **Permitted in Checked Baggage:** NO
+- **Permitted in Carry-on Baggage:** YES
+
+---
+Topic: Fuel cartridges, spare
+- **Description:** Fuel cartridges, spare for portable electronic devices.
+- **Operator Approval Required:** NO
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** YES
+
+---
+Topic: Gas cartridges, small, non-flammable
+- **Description:** Gas cartridges, small, non-flammable containing carbon dioxide or other suitable gas. Up to two (2) small cartridges fitted into a self-inflating safety device such as a life jacket or vest. Not more than Two (2) devices per passenger and up to two (2) spare small cartridges per person, not more than four (4) cartridges up to 50 mL water capacity for other devices.
+- **Operator Approval Required:** YES
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** YES
+
+---
+Topic: Gas cylinders for mechanical limbs
+- **Description:** Gas cylinders, non-flammable, non-toxic worn for the operation of mechanical limbs. Also, spare cylinders of a similar size if required to ensure an adequate supply for the duration of the journey.
+- **Operator Approval Required:** NO
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** YES
+
+---
+Topic: Hair styling equipment (hydrocarbon gas)
+- **Description:** Hair styling equipment containing a hydrocarbon gas cartridge, up to one (1) per passenger or crew- member, provided that the safety cover is securely fitted over the heating element. This hair styling equipment must not be used on board the aircraft. Spare gas cartridges for such hair styling equipment are not permitted in checked or carry-on baggage.
+- **Operator Approval Required:** NO
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** YES
+
+---
+Topic: Insulated packagings (Dry Shipper)
+- **Description:** Insulated packagings containing refrigerated liquid nitrogen (dry shipper), fully absorbed in a porous material containing only non-dangerous goods.
+- **Operator Approval Required:** NO
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** YES
+
+---
+Topic: Internal combustion or fuel cell engines
+- **Description:** Internal combustion or fuel cell engines.
+- **Operator Approval Required:** NO
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** NO
+
+---
+Topic: Lithium Batteries: Security-type equipment
+- **Description:** Security-type equipment containing lithium batteries.
+- **Operator Approval Required:** YES
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** NO
+
+---
+Topic: Lithium Batteries: Portable electronic devices (PED)
+- **Description:** Portable electronic devices containing lithium metal or lithium-ion cells or batteries, including medical devices (POC) and consumer electronics (cameras, mobile phones, laptops, tablets), when carried by passengers or crew for personal use.
+- **Limits:** Lithium metal content must not exceed 2 g. Lithium-ion batteries must not exceed 100 WH.
+- **Rules:** Devices in checked baggage must be completely switched off and protected from damage. Each person is limited to a maximum of Fifteen (15) PED. Baggage (such as smart luggage) equipped with a lithium battery, other than lithium button cells, the battery must be removable. If offered as checked baggage the battery must be removed and carried in the cabin.
+- **Operator Approval Required:** NO
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** YES
+
+---
+Topic: Lithium batteries, spare/loose (100Wh to 160Wh)
+- **Description:** Lithium batteries, spare/loose, including power banks (see Batteries, spare/loose) with a Watt-hour rating exceeding 100 Wh but not exceeding 160 Wh for consumer electronic devices and PMED or with a lithium content exceeding 2 g but not exceeding 8 g for PMED only. Maximum of two spare batteries in carry-on baggage only. These batteries must be individually protected to prevent short circuits.
+- **Formula:** Amps (AH) X Voltage (V) = Watt hour (Wh). Example (14000 mAh 12 Volt) 14000/1000 (Ah) X 12 (V) = 168 Wh.
+- **Nepal Airlines Note:** For all Nepal Airlines flight, any power banks with rated power exceeding 160 Wh or power banks without clear rating identification are not allowed to be carried on board.
+- **Operator Approval Required:** YES
+- **Permitted in Checked Baggage:** NO
+- **Permitted in Carry-on Baggage:** YES
+
+---
+Topic: Lithium battery-powered electronic devices (100Wh to 160Wh)
+- **Description:** Lithium-ion batteries for portable (including medical) electronic devices, a Wh rating exceeding 100 Wh but not exceeding 160 Wh. For portable medical electronic devices only, lithium metal batteries with a lithium content exceeding 2 g but not exceeding 8 g.
+- **Operator Approval Required:** YES
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** YES
+
+---
+Topic: Lithium Battery-Powered Lighters
+- **Description:** Battery-powered lighters powered by a lithium-ion or lithium metal battery (e.g. laser plasma lighters, tesla coil lighters, flux lighters, arc lighters and double arc lighters) without a safety cap or means of protection against unintentional activation.
+- **Operator Approval Required:** FORBIDDEN
+- **Permitted in Checked Baggage:** FORBIDDEN
+- **Permitted in Carry-on Baggage:** FORBIDDEN
+
+---

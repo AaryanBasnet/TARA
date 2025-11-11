@@ -1,0 +1,58 @@
+---
+Topic: Before Touch Down Charges
+TIA is willingly emerging as a major commercial entity while keeping itself to the role of infrastructure provider for airlines and other clients.
+
+Following are the list of charges category for both domestic and international flight operator:
+- Landing Charges for Int. Flight
+- Parking Charges for Int. Flight
+- Navigation Charges for Int. Flight
+- Landing Charges for Dom. Flight
+- Parking Charges for Dom. Flight
+- Security Service Charge
+- Charter Charge
+- Other Charges
+
+---
+Topic: Landing Charges - Domestic
+When an aircraft is landed in this airport the operator should pay the landing charge according to the following table.
+
+- Upto 10,000 Kgs: Rs. 55.00 (Per 1000 Kgs)
+- 10,001 Kgs - 25,000 Kgs: Rs. 550.00 (First 10,000 Kgs) + Rs. 110.00 (After 10,000 Per 1000)
+
+---
+Topic: Landing Charges - International
+When an aircraft is landed in this airport the operator should pay the landing charge according to the following table.
+
+- Upto 10,000 Kgs: US$ 1.25 (Per 1000 Kgs)
+- 10,001 Kgs - 25,000 Kgs: US$ 12.25 (First 10,000 Kgs) + US$ 2.50 (After 10,000 Per 1000)
+- 25,001 Kgs - 50,000 Kgs: US$ 49.00 (First 25,000 Kgs) + US$ 3.75 (After 25,000 Per 1000)
+- 50,001 Kgs - 75,000 Kgs: US$ 140.50 (First 50,000 Kgs) + US$ 6.00 (After 50,000 Per 1000)
+- 75,001 Kgs - 1,00,000 Kgs: US$ 293.25 (First 75,000 Kgs) + US$ 7.35 (After 75,000 Per 1000)
+- Above 1,00,000 Kgs: US$ 475.00 (First 1,00,000 Kgs) + US$ 8.55 (After 1,00,000 Per 1000)
+
+---
+Topic: Parking Charges - Domestic
+When an aircraft is parked no Parking Charges shall be levied for the first 3 hrs. Provided that the period of parking exceeds 3 hrs, then 6 each hrs will make one parking unit.
+
+- Upto 40,000 Kgs: Rs. 37.50 (Per 1000 Kgs)
+- 40,001 Kgs - 1,00,000 Kgs: Rs. 1500.00 (First 40,000 Kgs) + Rs. 54.00 (After 40,000 Per 1000)
+- Above 1,00,000 Kgs: Rs. 4740.00 (First 1,00,000 Kgs) + Rs. 75.00 (After 1,00,000 Per 1000)
+
+---
+Topic: Parking Charges - International
+When an aircraft is parked no Parking Charges shall be levied for the first 3 hrs. Provided that the period of parking exceeds 3 hrs, then 6 each hrs will make one parking unit. Charge will be charged as 25% of one parking at a time but Aircraft must be...
+
+- Upto 10,000 Kgs: US$ 1.00 (Per 1000 Kgs)
+- 10,000 Kgs - 1,00,000 Kgs: US$ 49.00 (First 50,000 Kgs) + US$ 1.05 (After 50,000 Per 1000)
+- Above 1,00,000 Kgs: US$ 122.25 (First 1,00,000 Kgs) + US$ 1.95 (After 1,00,000 Per 1000)
+
+---
+Topic: Navigational Charges - International
+When an aircraft is operated through this airport the operator should pay the navigation charge according to the following table.
+
+- UGpto 25,000 Kgs: US$ 45.90 (Flat)
+- 25,001 Kgs - 50,000 Kgs: US$ 76.50 (Flat)
+- 50,001 Kgs - 75,000 Kgs: US$ 152.75 (Flat)
+- Above 75,000 Kgs: US$ 305.50 (Flat)
+
+---

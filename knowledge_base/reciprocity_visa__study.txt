@@ -1,0 +1,17 @@
+DESCRIPTION:
+- Issued to US students and their dependents with 5 years visa. Stay Limit for Study Period.
+
+ISSUED BY: Department of Immigration
+
+FEE (USD): 160 USD
+
+REQUIRED DOCUMENT:
+- Recommendation letter from concerned Ministry (recommendation for 5 years)
+- University/College Admission Receipt
+- Bank Statement (latest one week)
+- Progress Report Card
+- Valid Passport
+- Other supporting documents, if required
+
+WHO CAN APPLY & HOW:
+- Applicant can apply from the online portal: https://nepaliport.immigration.gov.np/

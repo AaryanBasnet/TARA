@@ -1,0 +1,6 @@
+- **Description:** Portable electronic devices containing lithium metal or lithium-ion cells or batteries, including medical devices (POC) and consumer electronics (cameras, mobile phones, laptops, tablets), when carried by passengers or crew for personal use.
+- **Limits:** Lithium metal content must not exceed 2 g. Lithium-ion batteries must not exceed 100 WH.
+- **Rules:** Devices in checked baggage must be completely switched off and protected from damage. Each person is limited to a maximum of Fifteen (15) PED. Baggage (such as smart luggage) equipped with a lithium battery, other than lithium button cells, the battery must be removable. If offered as checked baggage the battery must be removed and carried in the cabin.
+- **Operator Approval Required:** NO
+- **Permitted in Checked Baggage:** YES
+- **Permitted in Carry-on Baggage:** YES

@@ -1,0 +1,13 @@
+DESCRIPTION:
+- Foreign nationals having a transit in Nepal can obtain Transit Visa to spend maximum 24 hours.
+
+ISSUED BY: Immigration Office
+
+FEE (USD): 5 USD
+
+REQUIRED DOCUMENT:
+- Proof of transit (Air ticket)
+- Valid Passport
+
+WHO CAN APPLY & HOW:
+- Applicant can apply from the online portal: https://nepaliport.immigration.gov.np/

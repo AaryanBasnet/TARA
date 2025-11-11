@@ -1,0 +1,9 @@
+- **Description:** Batteries, spare/loose, including lithium batteries, non-spillable batteries, nickel-metal hydride batteries and dry batteries for portable electronic devices must be carried in carry-on baggage only. Articles which have the primary purpose as a power source, e.g. power banks are considered as spare batteries. These batteries must be individually protected to prevent short circuits.
+- **Lithium metal batteries:** the lithium metal content must not exceed 2 g.
+- **Lithium-ion batteries:** the Watt-hour rating must not exceed 100 Wh.
+- Each person is limited to a maximum of 20 spare batteries.
+- **Non-spillable batteries:** must be 12 V or less and 100 Wh or less. Each person is limited to a maximum of 2 spare batteries.
+- **Nepal Airlines Note:** For all Nepal Airlines flights, the use of power bank and/or spare batteries on board all RA aircrafts is prohibited. The said devices must not be used to charge another electronic device or to be charged inflight. The Damage batteries are forbidden.
+- **Operator Approval Required:** NO
+- **Permitted in Checked Baggage:** NO
+- **Permitted in Carry-on Baggage:** YES
