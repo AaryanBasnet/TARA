@@ -1,5 +1,0 @@
-When an aircraft is parked no Parking Charges shall be levied for the first 3 hrs. Provided that the period of parking exceeds 3 hrs, then 6 each hrs will make one parking unit.
-
-- Upto 40,000 Kgs: Rs. 37.50 (Per 1000 Kgs)
-- 40,001 Kgs - 1,00,000 Kgs: Rs. 1500.00 (First 40,000 Kgs) + Rs. 54.00 (After 40,000 Per 1000)
-- Above 1,00,000 Kgs: Rs. 4740.00 (First 1,00,000 Kgs) + Rs. 75.00 (After 1,00,000 Per 1000)
