@@ -1,0 +1,23 @@
+TRIBHUVAN INTERNATIONAL AIRPORT 
+ 
+Brief Description 
+Tribhuvan International Airport is located at Kathmandu, the capital of Nepal, Bagmati Province and 
+serves as the only international airport. This airport is the busiest airport in terms of passengers' 
+movement. It is the only air-gate to Nepal from international destinations and links with all domestic 
+airports. 
+General Information 
+Name  TRIBHUVAN INTERNATIONAL AIRPORT 
+Location Indicator VNKT 
+IATA Code KTM 
+Aerodrome Reference Code 4E 
+Aerodrome Reference Point 274149.727 N/0852128.527 E 
+Province/District Bagmati/Kathmandu 
+Distance and Direction from City  Within Kathmandu City 
+Elevation 1339.54 m. /4394.76 ft.  
+Contact  
+Off: 977-14113163, 4113033   
+Flight Operation: 977-14113165 
+Fax: 977-14113180 
+AFS: VNKTYDYX 
+Email: tia_cao@caanepal.gov.np 
+Night Operation Facilities Available

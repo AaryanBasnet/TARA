@@ -1,0 +1,56 @@
+TIA SAFETY REPORT 2024
+24
+TIA Safety Report - 2024
+Chapter- 6 
+Safety Performance Indicators (SPIs) and Safety 
+Performance Target (SPTs) for 2025
+A. Lagging Indicators 
+Table-6.1 Lagging Indicators
+S.No. Indicators (Lagging) Target
+1.
+No. of BIRD related 
+occurrence per 10000 Flight 
+Movement.
+Reduce by 10% over the 
+value of 2024
+Per 10000 movement.
+2.
+No. of ADRM related 
+occurrence per 10000 Flight 
+Movement.
+Reduce by 10% over the 
+value of 2024
+Per 10000 movement.
+3. No. of FIRE NON- IMPACT 
+occurrence per year.
+Reduce by 10% over the 
+value of 2024.
+4. No. of WILD related 
+occurrence per year.
+Reduce by 10% over the 
+value of 2024
+5. No. of RAMP related 
+occurrence per year.
+Reduce by 15% over the 
+value of 2024.
+6. No. of ATM deficiencies per 
+1000 flight movement.
+Reduce the number of ATM 
+related deficiencies by 5% 
+over the value of 2024.
+7.
+Number of occurrences 
+related to MAC per 1000 
+flight movements.
+Reduce the number of 
+occurrences related to MAC 
+by 10% over the value of 
+2024.
+8.
+Number of occurrences 
+related to NA V per 
+1000 flight movements.
+Reduce the number of 
+occurrences related to NA V 
+by 10% over the value of 
+2024.

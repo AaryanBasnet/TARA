@@ -1,0 +1,39 @@
+{
+  "flights": [
+    {
+      "flight_iata": "RA205",
+      "airline": "Nepal Airlines",
+      "from_to": "New Delhi (DEL)",
+      "status": "On Time",
+      "gate": "B3"
+    },
+    {
+      "flight_iata": "U4954",
+      "airline": "Buddha Air",
+      "from_to": "Bhadrapur (BDP)",
+      "status": "Delayed 30 Min",
+      "gate": "D1"
+    },
+    {
+      "flight_iata": "YT421",
+      "airline": "Yeti Airlines",
+      "from_to": "Pokhara (PKR)",
+      "status": "Boarding",
+      "gate": "D2"
+    },
+    {
+      "flight_iata": "SG041",
+      "airline": "SpiceJet",
+      "from_to": "Mumbai (BOM)",
+      "status": "Cancelled",
+      "gate": "A1"
+    },
+    {
+      "flight_iata": "H9363",
+      "airline": "Himalaya Airlines",
+      "from_to": "Dammam (DMM)",
+      "status": "On Time",
+      "gate": "B2"
+    }
+  ]
+}
