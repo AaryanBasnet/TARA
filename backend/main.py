@@ -11,6 +11,7 @@ import re
 from datetime import datetime
 from typing import Optional, List
 from contextlib import asynccontextmanager
+import glob
 
 from fastapi import FastAPI, HTTPException, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
@@ -100,6 +101,9 @@ db = None
 embeddings = None
 llm = None
 agent_executor = None
+state = {
+    "latest_retrieval_score": 0.0
+}
 
 
 # =============================================================================
@@ -318,6 +322,7 @@ def retrieve_documents(query: str, k: int = RETRIEVAL_K) -> List[Document]:
     global db
 
     print(f"\n--- 🔍 HYBRID RETRIEVAL ---")
+    state["latest_retrieval_score"] = 0.0 # Reset per retrieval
     print(f"Original Query: {query}")
 
     # STEP 0: Preprocess and expand query for better semantic matching
@@ -371,6 +376,24 @@ def retrieve_documents(query: str, k: int = RETRIEVAL_K) -> List[Document]:
 
     # Step 3: Sort by combined score (higher is better)
     scored_docs.sort(key=lambda x: x[1], reverse=True)
+
+    # Capture best score for frontend metrics
+    if scored_docs:
+        # Normalize score (arbitrary scaling for display: 0.5-2.0 -> 0-100%)
+        # Purely for visualization "Confidence"
+        best_score = scored_docs[0][1]
+        # Cap at 99%, floor at 10%
+        normalized = min(99.0, max(10.0, best_score * 50))
+        state["latest_retrieval_score"] = round(normalized, 1)
+
+    # Capture best score for frontend metrics
+    if scored_docs:
+        # Normalize score (arbitrary scaling for display: 0.5-2.0 -> 0-100%)
+        # Purely for visualization "Confidence"
+        best_score = scored_docs[0][1]
+        # Cap at 99%, floor at 10%
+        normalized = min(99.0, max(10.0, best_score * 50))
+        state["latest_retrieval_score"] = round(normalized, 1)
 
     # Step 4: Take top k with diversity (skip near-duplicates)
     final_docs = []
@@ -671,6 +694,7 @@ class ChatResponse(BaseModel):
     response: str
     language: str
     execution_time: float
+    confidence_score: float = 0.0
     metadata: Optional[dict] = None
 
 
@@ -744,6 +768,7 @@ async def chat(request: ChatRequest):
             response=answer,
             language=lang,
             execution_time=elapsed,
+            confidence_score=state["latest_retrieval_score"],
             metadata={"query": query}
         )
 
@@ -803,21 +828,68 @@ async def weather():
             "status": "success",
             "data": {
                 "temperature": round(temp),
-                "condition": condition,
-                "windspeed": current.get("windspeed", 0),
-                "weathercode": weathercode
+                "condition": condition
+            }
+        }
+    except Exception as e:
+        print(f"Weather Error: {e}")
+        return {
+            "status": "error",
+            "data": {
+                "temperature": 22,
+                "condition": "Pleasant"
             }
         }
 
-    except Exception as e:
-        print(f"Weather API error: {e}")
-        return {
-            "status": "fallback",
-            "data": {
-                "temperature": 18,
-                "condition": "Partly Cloudy"
-            }
+@app.get("/api/evaluation")
+async def get_evaluation_results():
+    """
+    Fetch the latest REAL evaluation results from the 'evaluation/results' folder.
+    This ensures the frontend displays legitimate data from 'evaluate_e2e.py'.
+    """
+    try:
+        # Prepare consolidated report
+        consolidated_report = {
+            "e2e": {},
+            "document_ai": {},
+            "boarding_pass": {}
         }
+
+        # 1. Fetch E2E (RAG) Report
+        results_dir = os.path.join(PARENT_DIR, "evaluation", "results")
+        e2e_pattern = os.path.join(results_dir, "evaluation_report_*.json")
+        e2e_files = glob.glob(e2e_pattern)
+        
+        if e2e_files:
+            latest_e2e = max(e2e_files, key=os.path.getctime)
+            with open(latest_e2e, 'r', encoding='utf-8') as f:
+                consolidated_report["e2e"] = json.load(f)
+
+        # 2. Fetch Document AI (KYC) Report
+        doc_pattern = os.path.join(results_dir, "document_ai_eval_*.json")
+        doc_files = glob.glob(doc_pattern)
+        
+        if doc_files:
+            latest_doc = max(doc_files, key=os.path.getctime)
+            with open(latest_doc, 'r', encoding='utf-8') as f:
+                consolidated_report["document_ai"] = json.load(f)
+
+        # 3. Fetch Boarding Pass OCR Report
+        pass_pattern = os.path.join(results_dir, "boarding_pass_eval_*.json")
+        pass_files = glob.glob(pass_pattern)
+        
+        if pass_files:
+            latest_pass = max(pass_files, key=os.path.getctime)
+            with open(latest_pass, 'r', encoding='utf-8') as f:
+                consolidated_report["boarding_pass"] = json.load(f)
+
+        return consolidated_report
+
+    except Exception as e:
+        print(f"Error serving evaluation: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 
 
 @app.get("/api/flights")

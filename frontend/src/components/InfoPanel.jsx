@@ -10,10 +10,11 @@ import {
   ExternalLink,
   Ticket,
   Cpu,
-  ChevronRight
+  ChevronRight,
+  Activity
 } from 'lucide-react'
 
-const InfoPanel = ({ onOpenKYC, onOpenBoardingPass }) => {
+const InfoPanel = ({ onOpenKYC, onOpenBoardingPass, onOpenEval }) => {
   const [weather, setWeather] = useState(null)
 
   useEffect(() => {
@@ -67,11 +68,11 @@ const InfoPanel = ({ onOpenKYC, onOpenBoardingPass }) => {
             </div>
             <div className="text-5xl">
               {weather.condition?.includes('Clear') ? '☀️' :
-               weather.condition?.includes('Cloud') || weather.condition?.includes('Overcast') ? '⛅' :
-               weather.condition?.includes('Rain') || weather.condition?.includes('Shower') ? '🌧️' :
-               weather.condition?.includes('Drizzle') ? '🌦️' :
-               weather.condition?.includes('Thunder') ? '⛈️' :
-               weather.condition?.includes('Fog') ? '🌫️' : '🌤️'}
+                weather.condition?.includes('Cloud') || weather.condition?.includes('Overcast') ? '⛅' :
+                  weather.condition?.includes('Rain') || weather.condition?.includes('Shower') ? '🌧️' :
+                    weather.condition?.includes('Drizzle') ? '🌦️' :
+                      weather.condition?.includes('Thunder') ? '⛈️' :
+                        weather.condition?.includes('Fog') ? '🌫️' : '🌤️'}
             </div>
           </div>
         ) : (
@@ -123,6 +124,24 @@ const InfoPanel = ({ onOpenKYC, onOpenBoardingPass }) => {
               <p className="text-xs text-gray-500">Extract flight info from photo</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400 group-hover:text-blue-600" />
+          </button>
+
+          {/* System Evaluation (Thesis) */}
+          <button
+            onClick={onOpenEval}
+            className="w-full flex items-center gap-3 p-3 bg-gradient-to-r from-gray-50 to-slate-50 hover:from-gray-100 hover:to-slate-100 rounded-lg transition-colors text-left group border border-dashed border-gray-300"
+          >
+            <div className="w-10 h-10 bg-gray-600 rounded-lg flex items-center justify-center flex-shrink-0">
+              <Activity className="w-5 h-5 text-white" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <span className="text-sm font-medium text-gray-900 flex items-center gap-1">
+                System Evaluation
+                <span className="text-xs bg-gray-200 text-gray-700 px-1.5 py-0.5 rounded">ADMIN</span>
+              </span>
+              <p className="text-xs text-gray-500">View performance metrics</p>
+            </div>
+            <ChevronRight className="w-4 h-4 text-gray-400 group-hover:text-gray-600" />
           </button>
         </div>
       </div>

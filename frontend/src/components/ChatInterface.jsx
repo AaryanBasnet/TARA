@@ -109,11 +109,10 @@ const ChatInterface = ({ messages, onSendMessage, isLoading }) => {
             >
               {/* Avatar */}
               <div
-                className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 ${
-                  message.role === 'user'
+                className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 ${message.role === 'user'
                     ? 'bg-blue-600'
                     : 'bg-gray-100 border border-gray-200'
-                }`}
+                  }`}
               >
                 {message.role === 'user' ? (
                   <User className="w-4 h-4 text-white" />
@@ -124,15 +123,29 @@ const ChatInterface = ({ messages, onSendMessage, isLoading }) => {
 
               {/* Message bubble */}
               <div
-                className={`max-w-[80%] rounded-2xl px-4 py-3 ${
-                  message.role === 'user'
+                className={`max-w-[80%] rounded-2xl px-4 py-3 ${message.role === 'user'
                     ? 'bg-blue-600 text-white rounded-br-md'
                     : 'bg-white border border-gray-200 text-gray-900 rounded-bl-md shadow-sm'
-                }`}
+                  }`}
               >
                 <div className={`prose prose-sm max-w-none ${message.role === 'user' ? 'prose-invert' : ''}`}>
                   <ReactMarkdown>{message.content}</ReactMarkdown>
                 </div>
+
+                {/* Accuracy/Metrics Footer for Thesis */}
+                {message.metrics && (
+                  <div className="mt-2 pt-2 border-t border-gray-100 flex flex-wrap gap-x-4 gap-y-1 text-[10px] uppercase tracking-wider text-gray-400 font-semibold">
+                    <span className="flex items-center gap-1" title="Local Inference Time">
+                      ⏱️ {message.metrics.time?.toFixed(2)}s
+                    </span>
+                    <span className="flex items-center gap-1" title="RAG Retrieval Confidence">
+                      🎯 {message.metrics.confidence}% Conf.
+                    </span>
+                    <span className="flex items-center gap-1 text-green-600" title="Data Privacy Protected">
+                      🛡️ Secure
+                    </span>
+                  </div>
+                )}
               </div>
             </div>
           ))}

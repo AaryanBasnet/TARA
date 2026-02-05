@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "date": "2026-02-06T04:49:25.816249",
+    "samples_tested": 3,
+    "overall_accuracy": 20.833333333333332
+  },
+  "field_accuracy": {
+    "flight_number": 66.66666666666666,
+    "passenger_name": 0.0,
+    "origin": 33.33333333333333,
+    "destination": 0.0,
+    "date": 33.33333333333333,
+    "boarding_time": 0.0,
+    "gate": 0.0,
+    "seat": 33.33333333333333,
+    "departure_time": 0.0,
+    "class": 0.0
+  },
+  "detailed_results": [
+    {
+      "image": "evaluation/boarding_pass_samples\\sample1_red.webp",
+      "fields": {
+        "flight_number": {
+          "expected": "F2784",
+          "extracted": "F2784",
+          "match": true,
+          "score": 1.0
+        },
+        "passenger_name": {
+          "expected": "JOHN DOE",
+          "extracted": null,
+          "match": false,
+          "score": 0.0
+        },
+        "origin": {
+          "expected": "CHINA",
+          "extracted": null,
+          "match": false,
+          "score": 0.0
+        },
+        "destination": {
+          "expected": "RUSSIA",
+          "extracted": null,
+          "match": false,
+          "score": 0.0
+        },
+        "date": {
+          "expected": "06 JUNE 2025",
+          "extracted": "06 JUN 2025",
+          "match": false,
+          "score": 0.0
+        },
+        "boarding_time": {
+          "expected": "10:00",
+          "extracted": null,
+          "match": false,
+          "score": 0.0
+        },
+        "gate": {
+          "expected": "05",
+          "extracted": null,
+          "match": false,
+          "score": 0.0
+        },
+        "seat": {
+          "expected": "16",
+          "extracted": null,
+          "match": false,
+          "score": 0.0
+        }
+      },
+      "total_expected": 8,
+      "total_matched": 1,
+      "accuracy": 12.5,
+      "errors": [],
+      "sample_id": 1,
+      "description": "Red Air Lines boarding pass - China to Russia"
+    },
+    {
+      "image": "evaluation/boarding_pass_samples\\sample2_yellow.webp",
+      "fields": {
+        "flight_number": {
+          "expected": "A1234",
+          "extracted": "AI234",
+          "match": false,
+          "score": 0.0
+        },
+        "passenger_name": {
+          "expected": "MORGAN MAXWELL",
+          "extracted": null,
+          "match": false,
+          "score": 0.0
+        },
+        "origin": {
+          "expected": "FAUGET CITY",
+          "extracted": null,
+          "match": false,
+          "score": 0.0
+        },
+        "destination": {
+          "expected": "BORCELLE CITY",
+          "extracted": null,
+          "match": false,
+          "score": 0.0
+        },
+        "date": {
+          "expected": "15.12.2025",
+          "extracted": null,
+          "match": false,
+          "score": 0.0
+        },
+        "boarding_time": {
+          "expected": "09:00",
+          "extracted": null,
+          "match": false,
+          "score": 0.0
+        },
+        "gate": {
+          "expected": "12",
+          "extracted": null,
+          "match": false,
+          "score": 0.0
+        },
+        "seat": {
+          "expected": "12",
+          "extracted": null,
+          "match": false,
+          "score": 0.0
+        }
+      },
+      "total_expected": 8,
+      "total_matched": 0,
+      "accuracy": 0.0,
+      "errors": [],
+      "sample_id": 2,
+      "description": "Yellow Borcelle Airlines boarding pass"
+    },
+    {
+      "image": "evaluation/boarding_pass_samples\\sample3_blue.jpg",
+      "fields": {
+        "flight_number": {
+          "expected": "ABC1234",
+          "extracted": "ABC1234",
+          "match": true,
+          "score": 1.0
+        },
+        "passenger_name": {
+          "expected": "JOHN VOYAGE",
+          "extracted": "CLASS/NAME",
+          "match": false,
+          "score": 0.0
+        },
+        "origin": {
+          "expected": "MADRID",
+          "extracted": "Madrid",
+          "match": true,
+          "score": 1.0
+        },
+        "destination": {
+          "expected": "STOCKHOLM",
+          "extracted": null,
+          "match": false,
+          "score": 0.0
+        },
+        "date": {
+          "expected": "15 SEP 2019",
+          "extracted": "15 SEP 2019",
+          "match": true,
+          "score": 1.0
+        },
+        "departure_time": {
+          "expected": "16:30",
+          "extracted": null,
+          "match": false,
+          "score": 0.0
+        },
+        "seat": {
+          "expected": "27A",
+          "extracted": "27A",
+          "match": true,
+          "score": 1.0
+        },
+        "class": {
+          "expected": "M",
+          "extracted": null,
+          "match": false,
+          "score": 0.0
+        }
+      },
+      "total_expected": 8,
+      "total_matched": 4,
+      "accuracy": 50.0,
+      "errors": [],
+      "sample_id": 3,
+      "description": "Blue World Vector Airlines - Madrid to Stockholm"
+    }
+  ]
+}

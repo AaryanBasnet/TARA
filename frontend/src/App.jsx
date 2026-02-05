@@ -4,12 +4,14 @@ import Header from './components/Header'
 import InfoPanel from './components/InfoPanel'
 import KYCModal from './components/KYCModal'
 import BoardingPassModal from './components/BoardingPassModal'
+import EvaluationModal from './components/EvaluationModal'
 
 function App() {
   const [messages, setMessages] = useState([])
   const [isLoading, setIsLoading] = useState(false)
   const [showKYCModal, setShowKYCModal] = useState(false)
   const [showBoardingPassModal, setShowBoardingPassModal] = useState(false)
+  const [showEvalModal, setShowEvalModal] = useState(false)
 
   const sendMessage = async (message) => {
     if (!message.trim()) return
@@ -36,7 +38,11 @@ function App() {
         id: Date.now() + 1,
         role: 'assistant',
         content: data.response,
-        timestamp: new Date().toISOString()
+        timestamp: new Date().toISOString(),
+        metrics: {
+          time: data.execution_time,
+          confidence: data.confidence_score
+        }
       }
       setMessages(prev => [...prev, assistantMessage])
     } catch (error) {
@@ -73,6 +79,7 @@ function App() {
           <InfoPanel
             onOpenKYC={() => setShowKYCModal(true)}
             onOpenBoardingPass={() => setShowBoardingPassModal(true)}
+            onOpenEval={() => setShowEvalModal(true)}
           />
         </aside>
       </div>
@@ -85,6 +92,10 @@ function App() {
       <BoardingPassModal
         isOpen={showBoardingPassModal}
         onClose={() => setShowBoardingPassModal(false)}
+      />
+      <EvaluationModal
+        isOpen={showEvalModal}
+        onClose={() => setShowEvalModal(false)}
       />
     </div>
   )

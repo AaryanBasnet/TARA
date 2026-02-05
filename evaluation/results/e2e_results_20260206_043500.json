@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "date": "2026-02-06T04:35:00.686299",
+    "model": "qwen2.5:3b",
+    "total_queries": 10,
+    "accuracy": 100.0,
+    "avg_response_time": 9.52
+  },
+  "results": [
+    {
+      "question": "Is there free wifi at the airport?",
+      "answer": "Yes, there is free Wi-Fi available at the airport. It's accessible in both the International Terminal Building from the departure area to the arrival and after passing through immigration for the Depa",
+      "expected_keywords": [
+        "wifi",
+        "free",
+        "available"
+      ],
+      "found_keywords": [
+        "wifi",
+        "free",
+        "available"
+      ],
+      "keyword_score": 100.0,
+      "response_time": 13.07,
+      "correct": true,
+      "category": "facilities"
+    },
+    {
+      "question": "Where is the smoking area?",
+      "answer": "The designated smoking areas in the airport are located in the departure lounge of the international terminal building.",
+      "expected_keywords": [
+        "smoking",
+        "departure",
+        "lounge",
+        "terminal"
+      ],
+      "found_keywords": [
+        "smoking",
+        "departure",
+        "lounge",
+        "terminal"
+      ],
+      "keyword_score": 100.0,
+      "response_time": 3.05,
+      "correct": true,
+      "category": "facilities"
+    },
+    {
+      "question": "How many mobile phones can I bring?",
+      "answer": "You are allowed to carry only one mobile phone for your personal use to Nepal. Any additional mobile phones require prior approval from the labor ministry and may be subject to customs duties.",
+      "expected_keywords": [
+        "one",
+        "phone",
+        "mobile",
+        "duty"
+      ],
+      "found_keywords": [
+        "one",
+        "phone",
+        "mobile"
+      ],
+      "keyword_score": 75.0,
+      "response_time": 4.93,
+      "correct": true,
+      "category": "customs"
+    },
+    {
+      "question": "Do I need visa for Nepal?",
+      "answer": "For Indian citizens, no visa is required as they can enter Nepal with a valid Indian Passport or Election Card. For other foreigners, a visa is generally required and should be obtained in advance or ",
+      "expected_keywords": [
+        "visa",
+        "arrival",
+        "days"
+      ],
+      "found_keywords": [
+        "visa",
+        "arrival"
+      ],
+      "keyword_score": 66.7,
+      "response_time": 6.02,
+      "correct": true,
+      "category": "visa"
+    },
+    {
+      "question": "Where can I exchange money?",
+      "answer": "You can exchange money at the following locations:\n\n1. Two money exchange counters and ATM available at the arrival area before immigration.\n2. An ATM is available in a public place before entering th",
+      "expected_keywords": [
+        "exchange",
+        "money",
+        "counter",
+        "atm"
+      ],
+      "found_keywords": [
+        "exchange",
+        "money",
+        "counter",
+        "atm"
+      ],
+      "keyword_score": 100.0,
+      "response_time": 5.35,
+      "correct": true,
+      "category": "facilities"
+    },
+    {
+      "question": "Is wheelchair assistance available?",
+      "answer": "Yes, wheelchair assistance is available. Please contact your airline to arrange it.",
+      "expected_keywords": [
+        "wheelchair",
+        "available",
+        "airline",
+        "help"
+      ],
+      "found_keywords": [
+        "wheelchair",
+        "available",
+        "airline"
+      ],
+      "keyword_score": 75.0,
+      "response_time": 2.94,
+      "correct": true,
+      "category": "facilities"
+    },
+    {
+      "question": "What is the gold limit for customs?",
+      "answer": "The gold limit for customs in Nepal is up to 100 grams of 24-carat gold without additional charges. Gold jewelry has different limits depending on whether it's for a male or female, and any amount exc",
+      "expected_keywords": [
+        "gold",
+        "gram",
+        "50",
+        "ornament"
+      ],
+      "found_keywords": [
+        "gold",
+        "gram"
+      ],
+      "keyword_score": 50.0,
+      "response_time": 6.66,
+      "correct": true,
+      "category": "customs"
+    },
+    {
+      "question": "How do I get a taxi from airport?",
+      "answer": "To get a taxi at the airport, follow these steps:\n\n1. Look for the \"Pre-paid Taxi\" service sign which is usually located to your right when you step out of the arrival gate.\n2. Use this official servi",
+      "expected_keywords": [
+        "taxi",
+        "prepaid",
+        "arrival"
+      ],
+      "found_keywords": [
+        "taxi",
+        "arrival"
+      ],
+      "keyword_score": 66.7,
+      "response_time": 4.64,
+      "correct": true,
+      "category": "transport"
+    },
+    {
+      "question": "Can I bring a laptop without duty?",
+      "answer": "Yes, you can typically bring one laptop for personal use into Nepal without paying customs duty if you are above the age of 18. However, additional laptops may be subject to customs duty. It's always ",
+      "expected_keywords": [
+        "laptop",
+        "one",
+        "18",
+        "duty"
+      ],
+      "found_keywords": [
+        "laptop",
+        "one",
+        "18",
+        "duty"
+      ],
+      "keyword_score": 100.0,
+      "response_time": 7.09,
+      "correct": true,
+      "category": "customs"
+    },
+    {
+      "question": "Is there a business lounge?",
+      "answer": "Yes, there is a business lounge facility available at the airport. It is located in the departure area after immigration and before final security check in the international terminal. The business lou",
+      "expected_keywords": [
+        "lounge",
+        "business",
+        "departure"
+      ],
+      "found_keywords": [
+        "lounge",
+        "business",
+        "departure"
+      ],
+      "keyword_score": 100.0,
+      "response_time": 41.47,
+      "correct": true,
+      "category": "facilities"
+    }
+  ]
+}
