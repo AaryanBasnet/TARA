@@ -19,3 +19,19 @@
 /.idea/
 
 node_modules/
+
+# Ignore Temporary Uploads & Generated Content
+temp_uploads/
+*.jpg
+*.jpeg
+*.png
+*.webp
+backend/doc_content.txt
+*.log
+
+# Ignore Legacy/Backup folder
+__legacy_backup/
+
+# Ignore OS files
+Thumbs.db
+Desktop.ini
