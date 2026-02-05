@@ -1,3 +1,6 @@
+TOPIC: Fuel cells powering portable electronic devices
+SOURCE: Forbidden Items
+
 - **Description:** Fuel cells containing fuel, powering portable electronic devices (e.g. cameras, cellular phones, laptop computers and camcorders).
 - **Operator Approval Required:** NO
 - **Permitted in Checked Baggage:** NO

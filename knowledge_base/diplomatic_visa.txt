@@ -1,3 +1,6 @@
+TOPIC: Diplomatic Visa
+SOURCE: Visa Fee Documents
+
 DESCRIPTION:
 - Issued to a person holding a diplomatic passport issued from any country and recommended from the concerned diplomatic mission for the diplomatic visa.
 - Issued to a person considered eligible to grant diplomatic privileges by Government of Nepal (GoN) and the family members of such person holding the diplomatic passport.

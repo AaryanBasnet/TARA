@@ -1,0 +1,239 @@
+{
+  "metadata": {
+    "date": "2026-01-16T17:03:34.217957",
+    "type": "Document AI Evaluation"
+  },
+  "results": {
+    "check_digit": {
+      "test_name": "Check Digit Algorithm",
+      "passed": 8,
+      "failed": 9,
+      "total": 17,
+      "accuracy": 47.05882352941176,
+      "details": [
+        {
+          "field": "L898902C3",
+          "expected": 6,
+          "calculated": 6,
+          "correct": true,
+          "description": "Standard alphanumeric passport"
+        },
+        {
+          "field": "AB1234567",
+          "expected": 0,
+          "calculated": 1,
+          "correct": false,
+          "description": "Mixed letters and numbers"
+        },
+        {
+          "field": "123456789",
+          "expected": 7,
+          "calculated": 7,
+          "correct": true,
+          "description": "All numeric"
+        },
+        {
+          "field": "ABCDEFGHI",
+          "expected": 1,
+          "calculated": 4,
+          "correct": false,
+          "description": "All letters"
+        },
+        {
+          "field": "<<<<<<<<<",
+          "expected": 0,
+          "calculated": 0,
+          "correct": true,
+          "description": "All fillers"
+        },
+        {
+          "field": "740812",
+          "expected": 2,
+          "calculated": 2,
+          "correct": true,
+          "description": "DOB: 12 Aug 1974"
+        },
+        {
+          "field": "850101",
+          "expected": 0,
+          "calculated": 9,
+          "correct": false,
+          "description": "DOB: 01 Jan 1985"
+        },
+        {
+          "field": "901231",
+          "expected": 8,
+          "calculated": 8,
+          "correct": true,
+          "description": "DOB: 31 Dec 1990"
+        },
+        {
+          "field": "000515",
+          "expected": 4,
+          "calculated": 3,
+          "correct": false,
+          "description": "DOB: 15 May 2000"
+        },
+        {
+          "field": "120415",
+          "expected": 9,
+          "calculated": 9,
+          "correct": true,
+          "description": "Expiry: 15 Apr 2012"
+        },
+        {
+          "field": "251231",
+          "expected": 6,
+          "calculated": 4,
+          "correct": false,
+          "description": "Expiry: 31 Dec 2025"
+        },
+        {
+          "field": "300101",
+          "expected": 4,
+          "calculated": 9,
+          "correct": false,
+          "description": "Expiry: 01 Jan 2030"
+        },
+        {
+          "field": "A<<<<<<<<",
+          "expected": 0,
+          "calculated": 0,
+          "correct": true,
+          "description": "Single letter with fillers"
+        },
+        {
+          "field": "9<<<<<<<<",
+          "expected": 3,
+          "calculated": 3,
+          "correct": true,
+          "description": "Single digit with fillers"
+        },
+        {
+          "field": "ZZ9999999",
+          "expected": 4,
+          "calculated": 7,
+          "correct": false,
+          "description": "High value characters"
+        },
+        {
+          "field": "PA1234567",
+          "expected": 4,
+          "calculated": 3,
+          "correct": false,
+          "description": "Nepal passport format"
+        },
+        {
+          "field": "N01234567",
+          "expected": 5,
+          "calculated": 9,
+          "correct": false,
+          "description": "Alternative format"
+        }
+      ]
+    },
+    "mrz_validation": {
+      "test_name": "MRZ Validation Logic",
+      "passed": 0,
+      "failed": 5,
+      "total": 5,
+      "accuracy": 0.0,
+      "details": [
+        {
+          "mrz": "L898902C36UTO7408122F1204159ZE...",
+          "error": "'charmap' codec can't encode character '\\U0001f50d' in position 6: character maps to <undefined>",
+          "correct": false,
+          "description": "Valid UK passport MRZ"
+        },
+        {
+          "mrz": "PA12345674NPL8501011M2512319<<...",
+          "error": "'charmap' codec can't encode character '\\U0001f50d' in position 6: character maps to <undefined>",
+          "correct": false,
+          "description": "Valid Nepal passport MRZ"
+        },
+        {
+          "mrz": "L898902C35UTO7408122F1204159ZE...",
+          "error": "'charmap' codec can't encode character '\\U0001f50d' in position 6: character maps to <undefined>",
+          "correct": false,
+          "description": "Wrong passport check digit"
+        },
+        {
+          "mrz": "L898902C36UTO7408123F1204159ZE...",
+          "error": "'charmap' codec can't encode character '\\U0001f50d' in position 6: character maps to <undefined>",
+          "correct": false,
+          "description": "Wrong DOB check digit"
+        },
+        {
+          "mrz": "XXXXXXXXX0XXX0000000X0000000XX...",
+          "error": "'charmap' codec can't encode character '\\U0001f50d' in position 6: character maps to <undefined>",
+          "correct": false,
+          "description": "Invalid characters"
+        }
+      ]
+    },
+    "ocr_correction": {
+      "test_name": "OCR Error Correction",
+      "passed": 3,
+      "failed": 0,
+      "total": 3,
+      "accuracy": 100.0
+    },
+    "boarding_pass": {
+      "test_name": "Boarding Pass OCR",
+      "status": "skipped",
+      "reason": "No test images"
+    }
+  },
+  "synthetic_mrz_samples": [
+    {
+      "passport_number": "AZ6126303",
+      "passport_check": 4,
+      "dob": "190710",
+      "dob_check": 6,
+      "expiry": "351227",
+      "expiry_check": 4,
+      "nationality": "GBR",
+      "sex": "M"
+    },
+    {
+      "passport_number": "HL2079138",
+      "passport_check": 8,
+      "dob": "031122",
+      "dob_check": 5,
+      "expiry": "280521",
+      "expiry_check": 0,
+      "nationality": "JPN",
+      "sex": "F"
+    },
+    {
+      "passport_number": "DL9443095",
+      "passport_check": 8,
+      "dob": "000827",
+      "dob_check": 9,
+      "expiry": "330602",
+      "expiry_check": 4,
+      "nationality": "GBR",
+      "sex": "M"
+    },
+    {
+      "passport_number": "NU6591134",
+      "passport_check": 0,
+      "dob": "240113",
+      "dob_check": 9,
+      "expiry": "301015",
+      "expiry_check": 0,
+      "nationality": "GBR",
+      "sex": "F"
+    },
+    {
+      "passport_number": "OP5065296",
+      "passport_check": 8,
+      "dob": "150125",
+      "dob_check": 0,
+      "expiry": "291119",
+      "expiry_check": 1,
+      "nationality": "FRA",
+      "sex": "M"
+    }
+  ]
+}

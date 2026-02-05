@@ -1,3 +1,6 @@
+TOPIC: Tourist Visa
+SOURCE: Visa Fee Documents
+
 DESCRIPTION:
 - Issued to foreigners travelling to Nepal as an entry visa (On-Arrival Visa) at the port of entry.
 - Issued as an entry visa by Diplomatic Missions abroad.

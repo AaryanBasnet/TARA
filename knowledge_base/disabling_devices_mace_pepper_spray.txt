@@ -1,3 +1,6 @@
+TOPIC: Disabling devices (mace, pepper spray)
+SOURCE: Forbidden Items
+
 - **Description:** Disabling devices such as mace, pepper spray, etc. containing an irritant or incapacitating substance are forbidden on the person, in checked-in and carry-on baggage.
 - **Operator Approval Required:** FORBIDDEN
 - **Permitted in Checked Baggage:** FORBIDDEN

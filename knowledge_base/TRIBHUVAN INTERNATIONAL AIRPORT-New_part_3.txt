@@ -1,0 +1,103 @@
+TOPIC: TRIBHUVAN INTERNATIONAL AIRPORT New (Part 3)
+SOURCE: TRIBHUVAN INTERNATIONAL AIRPORT New
+
+Passenger Facilities
+Hotels Yes (city area)
+Restaurants Yes
+Transportations Taxi, Van, Bus
+Banks/ATMs Yes
+Internet Facility Wi-Fi
+Cable TV Yes
+Baggage Trolley Yes
+
+Airport Facilities
+Console Three Men Position Tower Console with Associated Equipment and Accessories
+Communication, Navigation & Surveillance Systems
+Communication HF SSB, VHF, AMHS, RCAG, Hot Line
+Navigation GNSS, DVOR, DME, NDB
+Surveillance AMSSR
+Security and Facilitations
+X-Ray Hold Baggage, Hand Baggage
+Metal Detector Walk Through, Hand Held
+CCTV Surveillance System Yes
+UHF Band Communication System Yes
+FIDS Yes
+Baggage Conveyer Yes
+Meteorological Services Yes (by DHM)
+Electro-Mechanical Facilities
+Supply Conditions 3 Phase Normal and Dedicated City
+Supply
+Runway Light Yes
+Runway Center Line Light Yes
+Approach Light Yes
+PAPI/APAPI Light PAPI
+Stand -by-supply Solar/Invertor, Generator
+Air Conditioner Centralized
+Rescue and Fire Fighting Services Yes
+
+TIA Domestic Flight Movement Comparison 2017-2019
+
+88000
+90000
+92000
+94000
+96000
+Aircraft
+93107
+95580
+91816
+Aircraft Movement
+2017 2018 2019
+0
+1000000
+2000000
+3000000
+4000000
+Pax
+2451390
+2847752 3188479
+Pax Movement
+2017 2018 2019
+0
+2000000
+4000000
+6000000
+Cargo
+4114386 3683070
+3112950
+Cargo Movement ( In KGs)
+2017 2018 2019
+
+TIA International Flight Movement Comparison 2017-2019
+
+Profile Edited on: 12th Feb, 2020
+31000
+32000
+33000
+34000
+Aircraft
+33362
+33933
+32439
+Aircraft Movement
+2017 2018 2019
+3600000
+3800000
+4000000
+4200000
+4400000
+Pax
+3887845
+4342486
+4138563
+Pax Movement
+2017 2018 2019
+0
+10000
+20000
+30000
+Cargo
+20665.929 20552.53
+7547.822
+Cargo Movement ( In Tons)
+2017 2018 2019

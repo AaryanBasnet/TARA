@@ -1,3 +1,6 @@
+TOPIC: Dry ice (carbon dioxide, solid)
+SOURCE: Forbidden Items
+
 - **Description:** Dry ice (carbon dioxide, solid), in quantities not exceeding 2.5 kg per person when used to pack perishables not subject to these Regulations in checked or carry-on baggage, provided the baggage (package) permits the release of carbon dioxide gas. Checked baggage must be marked “dry ice” or “carbon dioxide, solid” and with the net weight of dry ice or an indication that there is 2.5 kg or less dry ice.
 - **Operator Approval Required:** YES
 - **Permitted in Checked Baggage:** YES

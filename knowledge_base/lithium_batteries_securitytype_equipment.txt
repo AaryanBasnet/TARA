@@ -1,3 +1,6 @@
+TOPIC: Lithium Batteries: Security-type equipment
+SOURCE: Forbidden Items
+
 - **Description:** Security-type equipment containing lithium batteries.
 - **Operator Approval Required:** YES
 - **Permitted in Checked Baggage:** YES

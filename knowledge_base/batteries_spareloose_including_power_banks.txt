@@ -1,3 +1,6 @@
+TOPIC: Batteries, spare/loose (including power banks)
+SOURCE: Forbidden Items
+
 - **Description:** Batteries, spare/loose, including lithium batteries, non-spillable batteries, nickel-metal hydride batteries and dry batteries for portable electronic devices must be carried in carry-on baggage only. Articles which have the primary purpose as a power source, e.g. power banks are considered as spare batteries. These batteries must be individually protected to prevent short circuits.
 - **Lithium metal batteries:** the lithium metal content must not exceed 2 g.
 - **Lithium-ion batteries:** the Watt-hour rating must not exceed 100 Wh.

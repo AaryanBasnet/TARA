@@ -1,0 +1,47 @@
+{
+  "samples": [
+    {
+      "filename": "sample1_red.webp",
+      "description": "Red Air Lines boarding pass - China to Russia",
+      "expected": {
+        "flight_number": "F2784",
+        "passenger_name": "JOHN DOE",
+        "origin": "CHINA",
+        "destination": "RUSSIA",
+        "date": "06 JUNE 2025",
+        "boarding_time": "10:00",
+        "gate": "05",
+        "terminal": "2A",
+        "seat": "16"
+      }
+    },
+    {
+      "filename": "sample2_yellow.webp",
+      "description": "Yellow Borcelle Airlines boarding pass",
+      "expected": {
+        "flight_number": "A1234",
+        "passenger_name": "MORGAN MAXWELL",
+        "origin": "FAUGET CITY",
+        "destination": "BORCELLE CITY",
+        "date": "15.12.2025",
+        "boarding_time": "09:00",
+        "gate": "12",
+        "seat": "12"
+      }
+    },
+    {
+      "filename": "sample3_blue.jpg",
+      "description": "Blue World Vector Airlines - Madrid to Stockholm",
+      "expected": {
+        "flight_number": "ABC1234",
+        "passenger_name": "JOHN VOYAGE",
+        "origin": "MADRID",
+        "destination": "STOCKHOLM",
+        "date": "15 SEP 2019",
+        "departure_time": "16:30",
+        "seat": "27A",
+        "class": "M"
+      }
+    }
+  ]
+}

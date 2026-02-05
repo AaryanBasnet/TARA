@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"D:\\virtual chatbot\\.venv\\Scripts\\pip.exe\" install torch --index-url https://download.pytorch.org/whl/cpu)",
+      "Bash(python -m venv:*)",
+      "Bash(mkdir:*)",
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "Bash(python build_knowledge.py:*)",
+      "Bash(wc:*)",
+      "Bash(python evaluation/evaluate_system.py:*)",
+      "Bash(.venvScriptsactivate)",
+      "Bash(\".venv\\\\Scripts\\\\python.exe\" evaluation/evaluate_document_ai.py)",
+      "Bash(copy:*)",
+      "Bash(copy \"c:\\\\Users\\\\basne\\\\Downloads\\\\1600w-Spr5uDdGO2w.webp\" \"D:\\\\Smart Arrival Ecosystem\\\\evaluation\\\\boarding_pass_samples\\\\sample2_yellow.webp\")",
+      "Bash(\".venv\\\\Scripts\\\\python.exe\" evaluation/evaluate_boarding_pass.py)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

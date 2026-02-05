@@ -1,0 +1,13 @@
+Metric,Value
+Evaluation Date,2025-11-30T20:10:37.774551
+Model,qwen2.5:3b
+Total Test Cases,50
+
+RETRIEVAL METRICS,
+Hit@1,45.0%
+Hit@3,62.5%
+Hit@5,65.0%
+MRR,0.5437
+
+TOOL SELECTION,
+Accuracy,93.75%

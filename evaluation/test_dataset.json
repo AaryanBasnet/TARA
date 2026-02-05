@@ -1,0 +1,460 @@
+{
+  "metadata": {
+    "description": "TIA Virtual Assistant Evaluation Dataset",
+    "version": "1.0",
+    "created": "2024-11-30",
+    "total_questions": 50
+  },
+  "test_cases": [
+    {
+      "id": 1,
+      "category": "facilities",
+      "question": "Is there free wifi at the airport?",
+      "expected_topic": "facilities_wifi",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Yes, free wifi is available. Connect to Free_CAAN_Worldlink_Wifi",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "category": "facilities",
+      "question": "Where is the smoking area?",
+      "expected_topic": "facilities_smoking_area",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Designated smoking areas are in the departure lounge of international terminal",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "category": "facilities",
+      "question": "Is wheelchair assistance available?",
+      "expected_topic": "facilities_wheelchair",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Yes, wheelchairs are available. Contact your airline or help desk",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "category": "facilities",
+      "question": "Where can I exchange money?",
+      "expected_topic": "facilities_money_exchange_atm",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Money exchange counters and ATM available at arrival before immigration",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "category": "facilities",
+      "question": "Is there a baby feeding room?",
+      "expected_topic": "facilities_child_care",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Child Care Lounge with baby cot available at international and domestic departure lounge",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "category": "customs",
+      "question": "How many mobile phones can I bring to Nepal?",
+      "expected_topic": "customs_mobile_phones",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "One phone for personal use. Nepali citizens in foreign employment can bring one extra duty-free",
+      "difficulty": "medium"
+    },
+    {
+      "id": 7,
+      "category": "customs",
+      "question": "What is the gold allowance for tourists?",
+      "expected_topic": "customs_gold",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Gold ornaments not more than 50 grams allowed without duty",
+      "difficulty": "medium"
+    },
+    {
+      "id": 8,
+      "category": "customs",
+      "question": "Can I bring a laptop without paying duty?",
+      "expected_topic": "customs_laptop",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "One laptop allowed for persons above 18 without customs duty",
+      "difficulty": "medium"
+    },
+    {
+      "id": 9,
+      "category": "customs",
+      "question": "How much alcohol can I bring?",
+      "expected_topic": "customs_liquor",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "One liter of alcoholic beverage or 12 cans of beer allowed",
+      "difficulty": "medium"
+    },
+    {
+      "id": 10,
+      "category": "customs",
+      "question": "What is the cigarette limit?",
+      "expected_topic": "customs_cigarettes",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "200 cigarettes or 50 cigars or 250 grams tobacco allowed",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "category": "customs",
+      "question": "Do I need to declare foreign currency?",
+      "expected_topic": "customs_currency",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Declare if carrying more than USD 5000 or equivalent",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "category": "customs",
+      "question": "What is the difference between green and red channel?",
+      "expected_topic": "customs_channels",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Green for non-dutiable items, Red for dutiable or if in doubt",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "category": "prohibited",
+      "question": "Can I bring a drone to Nepal?",
+      "expected_topic": "drone_policy",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Drones require special permits and clearance from Civil Aviation Authority",
+      "difficulty": "hard"
+    },
+    {
+      "id": 14,
+      "category": "prohibited",
+      "question": "What items are prohibited in checked baggage?",
+      "expected_topic": "prohibited_items",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Explosives, flammable items, compressed gases, toxic substances",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "category": "visa",
+      "question": "How much does a 30-day tourist visa cost?",
+      "expected_topic": "visa_fees",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "USD 30 for 15 days, USD 50 for 30 days, USD 125 for 90 days",
+      "difficulty": "easy"
+    },
+    {
+      "id": 16,
+      "category": "visa",
+      "question": "Can I get visa on arrival?",
+      "expected_topic": "visa_on_arrival",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Yes, visa on arrival available for most nationalities at TIA",
+      "difficulty": "easy"
+    },
+    {
+      "id": 17,
+      "category": "visa",
+      "question": "Do Indian citizens need a visa for Nepal?",
+      "expected_topic": "visa_exemption",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "No visa required for Indian nationals, only ID proof needed",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "category": "visa",
+      "question": "What documents do I need for visa?",
+      "expected_topic": "visa_documents",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Valid passport, passport photo, visa fee, completed application form",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "category": "flight",
+      "question": "What is the status of flight RA205?",
+      "expected_topic": null,
+      "expected_tool": "get_flight_status_from_json",
+      "ground_truth": "Returns flight status from database",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "category": "flight",
+      "question": "Are there any flights from Dubai today?",
+      "expected_topic": null,
+      "expected_tool": "search_flights_by_route",
+      "ground_truth": "Returns list of flights from Dubai",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "category": "flight",
+      "question": "What flights are coming from Bangkok?",
+      "expected_topic": null,
+      "expected_tool": "search_flights_by_route",
+      "ground_truth": "Returns list of flights from Bangkok",
+      "difficulty": "medium"
+    },
+    {
+      "id": 22,
+      "category": "weather",
+      "question": "What is the weather in Kathmandu?",
+      "expected_topic": null,
+      "expected_tool": "get_kathmandu_weather_openmeteo",
+      "ground_truth": "Returns current weather data",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "category": "transport",
+      "question": "How do I get a taxi from the airport?",
+      "expected_topic": "prepaid_taxi",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Pre-paid taxi service available at arrival exit, rates displayed on board",
+      "difficulty": "easy"
+    },
+    {
+      "id": 24,
+      "category": "transport",
+      "question": "Is there parking at the airport?",
+      "expected_topic": "parking",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Parking facility available at the airport",
+      "difficulty": "easy"
+    },
+    {
+      "id": 25,
+      "category": "baggage",
+      "question": "Where do I report lost baggage?",
+      "expected_topic": "lost_baggage",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Contact baggage help desk or airline counter",
+      "difficulty": "easy"
+    },
+    {
+      "id": 26,
+      "category": "baggage",
+      "question": "Is baggage wrapping service available?",
+      "expected_topic": "baggage_wrapping",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Baggage wrapping services available at the airport",
+      "difficulty": "easy"
+    },
+    {
+      "id": 27,
+      "category": "baggage",
+      "question": "Are trolleys free at the airport?",
+      "expected_topic": "trolley_services",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Free baggage trolleys available",
+      "difficulty": "easy"
+    },
+    {
+      "id": 28,
+      "category": "services",
+      "question": "Is there a medical facility at the airport?",
+      "expected_topic": "medical_services",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Medical services available at the airport",
+      "difficulty": "easy"
+    },
+    {
+      "id": 29,
+      "category": "services",
+      "question": "Where can I find the help desk?",
+      "expected_topic": "facilities_helpdesk",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Help desks at canopy area, check-in, departure, arrival, and customs",
+      "difficulty": "easy"
+    },
+    {
+      "id": 30,
+      "category": "services",
+      "question": "Is there a business lounge?",
+      "expected_topic": "facilities_business_lounge",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Business lounges operated by Hotel Soaltee and Radisson at departure area",
+      "difficulty": "easy"
+    },
+    {
+      "id": 31,
+      "category": "services",
+      "question": "What is the CIP room?",
+      "expected_topic": "facilities_cip_room",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Commercial Important Person room for rest while formalities handled",
+      "difficulty": "medium"
+    },
+    {
+      "id": 32,
+      "category": "immigration",
+      "question": "How long can I stay with tourist visa?",
+      "expected_topic": "visa_duration",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "15, 30, or 90 days depending on visa type purchased",
+      "difficulty": "easy"
+    },
+    {
+      "id": 33,
+      "category": "immigration",
+      "question": "Can I extend my visa in Nepal?",
+      "expected_topic": "visa_extension",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Yes, contact Immigration Office at Dillibazar, Kalikasthan",
+      "difficulty": "medium"
+    },
+    {
+      "id": 34,
+      "category": "trekking",
+      "question": "Do I need a permit for Everest region?",
+      "expected_topic": "trekking_permits",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "TIMS card and national park entry permit required",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "category": "trekking",
+      "question": "Where can I get a trekking permit at airport?",
+      "expected_topic": "trekking_permits",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Nepal Tourism Board counter at arrival lounge",
+      "difficulty": "medium"
+    },
+    {
+      "id": 36,
+      "category": "safety",
+      "question": "What items cannot be carried in hand baggage?",
+      "expected_topic": "prohibited_hand_baggage",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Sharp objects, liquids over 100ml, lighters, etc.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 37,
+      "category": "arrival",
+      "question": "What should I do after landing at TIA?",
+      "expected_topic": "arrival_process",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Immigration, baggage collection, customs, then exit to arrival lounge",
+      "difficulty": "medium"
+    },
+    {
+      "id": 38,
+      "category": "departure",
+      "question": "How early should I arrive for international flight?",
+      "expected_topic": "departure_info",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Arrive 3 hours before international departure",
+      "difficulty": "easy"
+    },
+    {
+      "id": 39,
+      "category": "complex",
+      "question": "What is the status of Delhi flight and weather?",
+      "expected_topic": null,
+      "expected_tool": "multiple",
+      "ground_truth": "Should use both flight search and weather tools",
+      "difficulty": "hard"
+    },
+    {
+      "id": 40,
+      "category": "out_of_scope",
+      "question": "Can you book a hotel for me?",
+      "expected_topic": null,
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Should redirect to HAN counter or decline gracefully",
+      "difficulty": "medium"
+    },
+    {
+      "id": 41,
+      "category": "out_of_scope",
+      "question": "What is the capital of France?",
+      "expected_topic": null,
+      "expected_tool": "none",
+      "ground_truth": "Should decline - out of scope",
+      "difficulty": "easy"
+    },
+    {
+      "id": 42,
+      "category": "facilities",
+      "question": "Can I use credit card at the airport?",
+      "expected_topic": "facilities_credit_card",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Visa and Mastercard accepted at most shops",
+      "difficulty": "easy"
+    },
+    {
+      "id": 43,
+      "category": "facilities",
+      "question": "Is there a charging station for phones?",
+      "expected_topic": "charging_hub",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Charging hub available at the airport",
+      "difficulty": "easy"
+    },
+    {
+      "id": 44,
+      "category": "facilities",
+      "question": "Where can I eat at the airport?",
+      "expected_topic": "restaurants",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Food court and restaurants available",
+      "difficulty": "easy"
+    },
+    {
+      "id": 45,
+      "category": "customs",
+      "question": "Can I bring medicine to Nepal?",
+      "expected_topic": "customs_medicine",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "Necessary medicines allowed, carry prescription for controlled drugs",
+      "difficulty": "medium"
+    },
+    {
+      "id": 46,
+      "category": "vat",
+      "question": "Can I get VAT refund?",
+      "expected_topic": "vat_refund",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "VAT refund available for eligible purchases",
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "category": "flight",
+      "question": "Is flight FZ575 on time?",
+      "expected_topic": null,
+      "expected_tool": "get_flight_status_from_json",
+      "ground_truth": "Returns FlyDubai flight status",
+      "difficulty": "easy"
+    },
+    {
+      "id": 48,
+      "category": "flight",
+      "question": "Which gate for Qatar Airways?",
+      "expected_topic": null,
+      "expected_tool": "get_flight_status_from_json",
+      "ground_truth": "Returns gate information for QR flights",
+      "difficulty": "medium"
+    },
+    {
+      "id": 49,
+      "category": "sim",
+      "question": "How can I get a SIM card at the airport?",
+      "expected_topic": "sim_card",
+      "expected_tool": "get_general_airport_info",
+      "ground_truth": "SIM cards available from Ncell/NTC stalls after money exchange",
+      "difficulty": "easy"
+    },
+    {
+      "id": 50,
+      "category": "sim",
+      "question": "I want to verify my identity for SIM card",
+      "expected_topic": null,
+      "expected_tool": "process_sim_card_kyc",
+      "ground_truth": "Should trigger KYC verification process",
+      "difficulty": "hard"
+    }
+  ]
+}

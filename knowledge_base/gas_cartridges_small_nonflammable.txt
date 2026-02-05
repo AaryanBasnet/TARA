@@ -1,3 +1,6 @@
+TOPIC: Gas cartridges, small, non-flammable
+SOURCE: Forbidden Items
+
 - **Description:** Gas cartridges, small, non-flammable containing carbon dioxide or other suitable gas. Up to two (2) small cartridges fitted into a self-inflating safety device such as a life jacket or vest. Not more than Two (2) devices per passenger and up to two (2) spare small cartridges per person, not more than four (4) cartridges up to 50 mL water capacity for other devices.
 - **Operator Approval Required:** YES
 - **Permitted in Checked Baggage:** YES

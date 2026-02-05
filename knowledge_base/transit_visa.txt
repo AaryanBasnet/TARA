@@ -1,3 +1,6 @@
+TOPIC: Transit Visa
+SOURCE: Visa Fee Documents
+
 DESCRIPTION:
 - Foreign nationals having a transit in Nepal can obtain Transit Visa to spend maximum 24 hours.
 

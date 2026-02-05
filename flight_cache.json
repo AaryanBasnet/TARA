@@ -1,0 +1,727 @@
+{
+    "last_updated": "2025-12-16 23:32:49",
+    "source": "AviationStack API (Real-Time)",
+    "total_flights": 80,
+    "flights": [
+        {
+            "flight": "H9766",
+            "airline": "Himalaya Airlines",
+            "route": "Dubai",
+            "time": "09:45",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "RA240",
+            "airline": "Nepal Airlines",
+            "route": "Doha International",
+            "time": "09:05",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "3L43",
+            "airline": "Air Arabia Abu Dhabi",
+            "route": "Abu Dhabi International",
+            "time": "09:05",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "SH228",
+            "airline": "Sharp Airlines",
+            "route": "Dhangarhi",
+            "time": "05:50",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "FZ1133",
+            "airline": "flydubai",
+            "route": "Dubai",
+            "time": "08:20",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "EK2262",
+            "airline": "Emirates",
+            "route": "Dubai",
+            "time": "08:20",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "TK726",
+            "airline": "Turkish Airlines",
+            "route": "Istanbul Airport",
+            "time": "11:10",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "RA416",
+            "airline": "Nepal Airlines",
+            "route": "Kuala Lumpur International Airport (klia)",
+            "time": "08:40",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "SH124",
+            "airline": "Sharp Airlines",
+            "route": "Kadmandu",
+            "time": "04:00",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "H9364",
+            "airline": "Himalaya Airlines",
+            "route": "Doha International",
+            "time": "08:50",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "AI215",
+            "airline": "Air India",
+            "route": "Indira Gandhi International",
+            "time": "06:35",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "LX9884",
+            "airline": "SWISS",
+            "route": "Indira Gandhi International",
+            "time": "06:35",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "SH738",
+            "airline": "Sharp Airlines",
+            "route": "Biratnagar",
+            "time": "04:35",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "G9536",
+            "airline": "Air Arabia",
+            "route": "Sharjah",
+            "time": "07:00",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "QR648",
+            "airline": "Qatar Airways",
+            "route": "Doha International",
+            "time": "07:55",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "SH226",
+            "airline": "Sharp Airlines",
+            "route": "Dhangarhi",
+            "time": "04:10",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "SH660",
+            "airline": "Sharp Airlines",
+            "route": "Pokhara",
+            "time": "03:35",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "H9560",
+            "airline": "Himalaya Airlines",
+            "route": "King Fahd International Airport",
+            "time": "07:15",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "H14968",
+            "airline": null,
+            "route": "King Fahd International Airport",
+            "time": "07:15",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "SH944",
+            "airline": "Sharp Airlines",
+            "route": "Bhadrapur",
+            "time": "02:35",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "SH736",
+            "airline": "Sharp Airlines",
+            "route": "Biratnagar",
+            "time": "01:35",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "SH436",
+            "airline": "Sharp Airlines",
+            "route": "Nepalganj",
+            "time": "02:15",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "J91539",
+            "airline": "Jazeera Airways",
+            "route": "Kuwait International",
+            "time": "06:20",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "EK2153",
+            "airline": "Emirates",
+            "route": "Dubai",
+            "time": "23:30",
+            "status": "En Route",
+            "type": "Arrival",
+            "raw_status": "active"
+        },
+        {
+            "flight": "GA9008",
+            "airline": "Garuda Indonesia",
+            "route": "Singapore Changi",
+            "time": "22:00",
+            "status": "Landed",
+            "type": "Arrival",
+            "raw_status": "landed"
+        },
+        {
+            "flight": "AI223",
+            "airline": "Air India",
+            "route": "Indira Gandhi International",
+            "time": "00:15",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "TG309",
+            "airline": "Thai Airways International",
+            "route": "Suvarnabhumi International",
+            "time": "23:25",
+            "status": "En Route",
+            "type": "Arrival",
+            "raw_status": "active"
+        },
+        {
+            "flight": "ID182",
+            "airline": "Batik Air",
+            "route": "Kuala Lumpur International Airport (klia)",
+            "time": "20:35",
+            "status": "Landed",
+            "type": "Arrival",
+            "raw_status": "landed"
+        },
+        {
+            "flight": "H14974",
+            "airline": null,
+            "route": "Kuala Lumpur International Airport (klia)",
+            "time": "20:40",
+            "status": "Landed",
+            "type": "Arrival",
+            "raw_status": "landed"
+        },
+        {
+            "flight": "U4716",
+            "airline": "Buddha Air",
+            "route": "Biratnagar",
+            "time": "20:50",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "unknown"
+        },
+        {
+            "flight": "U4412",
+            "airline": "Buddha Air",
+            "route": "Nepalganj",
+            "time": "20:20",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "unknown"
+        },
+        {
+            "flight": "FZ573",
+            "airline": "flydubai",
+            "route": "Dubai",
+            "time": "23:30",
+            "status": "En Route",
+            "type": "Arrival",
+            "raw_status": "active"
+        },
+        {
+            "flight": "U4714",
+            "airline": "Buddha Air",
+            "route": "Biratnagar",
+            "time": "19:55",
+            "status": "Landed",
+            "type": "Arrival",
+            "raw_status": "landed"
+        },
+        {
+            "flight": "U4666",
+            "airline": "Buddha Air",
+            "route": "Pokhara",
+            "time": "19:30",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "unknown"
+        },
+        {
+            "flight": "U4808",
+            "airline": "Buddha Air",
+            "route": "Bhairawa",
+            "time": "19:40",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "AI217",
+            "airline": "Air India",
+            "route": "Indira Gandhi International",
+            "time": "13:55",
+            "status": "Landed",
+            "type": "Arrival",
+            "raw_status": "landed"
+        },
+        {
+            "flight": "KU393",
+            "airline": "Kuwait Airways",
+            "route": "Kuwait International",
+            "time": "23:00",
+            "status": "En Route",
+            "type": "Arrival",
+            "raw_status": "active"
+        },
+        {
+            "flight": "YT880",
+            "airline": "Yeti Airlines",
+            "route": "Bhairawa",
+            "time": "18:40",
+            "status": "Scheduled",
+            "type": "Arrival",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "U4562",
+            "airline": "Buddha Air",
+            "route": "Simara",
+            "time": "18:35",
+            "status": "En Route",
+            "type": "Arrival",
+            "raw_status": "active"
+        },
+        {
+            "flight": "AI211",
+            "airline": "Air India",
+            "route": "Indira Gandhi International",
+            "time": "20:05",
+            "status": "Landed",
+            "type": "Arrival",
+            "raw_status": "landed"
+        },
+        {
+            "flight": "SH739",
+            "airline": "Sharp Airlines",
+            "route": "Biratnagar",
+            "time": "05:15",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "SH945",
+            "airline": "Sharp Airlines",
+            "route": "Bhadrapur",
+            "time": "05:00",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "SH437",
+            "airline": "Sharp Airlines",
+            "route": "Nepalganj",
+            "time": "04:15",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "SH227",
+            "airline": "Sharp Airlines",
+            "route": "Dhangarhi",
+            "time": "03:35",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "SH737",
+            "airline": "Sharp Airlines",
+            "route": "Biratnagar",
+            "time": "03:05",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "SH123",
+            "airline": "Sharp Airlines",
+            "route": "Kadmandu",
+            "time": "02:00",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "SH659",
+            "airline": "Sharp Airlines",
+            "route": "Pokhara",
+            "time": "02:15",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "SH225",
+            "airline": "Sharp Airlines",
+            "route": "Dhangarhi",
+            "time": "02:00",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "SH943",
+            "airline": "Sharp Airlines",
+            "route": "Bhadrapur",
+            "time": "01:00",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "FZ574",
+            "airline": "flydubai",
+            "route": "Dubai",
+            "time": "00:30",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "EK2154",
+            "airline": "Emirates",
+            "route": "Dubai",
+            "time": "00:30",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "TG310",
+            "airline": "Thai Airways International",
+            "route": "Suvarnabhumi International",
+            "time": "00:25",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "KU394",
+            "airline": "Kuwait Airways",
+            "route": "Kuwait International",
+            "time": "00:05",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "H9571",
+            "airline": "Himalaya Airlines",
+            "route": "Kuwait International",
+            "time": "23:35",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "H14971",
+            "airline": null,
+            "route": "Kuwait International",
+            "time": "23:35",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "RA433",
+            "airline": "Nepal Airlines",
+            "route": "Narita International Airport",
+            "time": "23:30",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "H9765",
+            "airline": "Himalaya Airlines",
+            "route": "Dubai",
+            "time": "23:30",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "H14995",
+            "airline": null,
+            "route": "Dubai",
+            "time": "23:30",
+            "status": "En Route",
+            "type": "Departure",
+            "raw_status": "active"
+        },
+        {
+            "flight": "CZ3068",
+            "airline": "China Southern Airlines",
+            "route": "Guangzhou Baiyun International",
+            "time": "23:30",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "SQ441",
+            "airline": "Singapore Airlines",
+            "route": "Singapore Changi",
+            "time": "23:00",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "GA9009",
+            "airline": "Garuda Indonesia",
+            "route": "Singapore Changi",
+            "time": "23:00",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "CX640",
+            "airline": "Cathay Pacific",
+            "route": "Hong Kong International",
+            "time": "22:55",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "ID181",
+            "airline": "Batik Air",
+            "route": "Kuala Lumpur International Airport (klia)",
+            "time": "21:25",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "MH115",
+            "airline": "Malaysia Airlines",
+            "route": "Kuala Lumpur International Airport (klia)",
+            "time": "22:30",
+            "status": "En Route",
+            "type": "Departure",
+            "raw_status": "active"
+        },
+        {
+            "flight": "RA415",
+            "airline": "Nepal Airlines",
+            "route": "Kuala Lumpur International Airport (klia)",
+            "time": "22:20",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "RA239",
+            "airline": "Nepal Airlines",
+            "route": "Doha International",
+            "time": "21:45",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "H9363",
+            "airline": "Himalaya Airlines",
+            "route": "Doha International",
+            "time": "21:40",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "H14993",
+            "airline": null,
+            "route": "Doha International",
+            "time": "21:40",
+            "status": "En Route",
+            "type": "Departure",
+            "raw_status": "active"
+        },
+        {
+            "flight": "OD181",
+            "airline": "Malindo Air",
+            "route": "Kuala Lumpur International Airport (klia)",
+            "time": "21:25",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "G9531",
+            "airline": "Air Arabia",
+            "route": "Sharjah",
+            "time": "21:25",
+            "status": "En Route",
+            "type": "Departure",
+            "raw_status": "active"
+        },
+        {
+            "flight": "AI212",
+            "airline": "Air India",
+            "route": "Indira Gandhi International",
+            "time": "21:05",
+            "status": "En Route",
+            "type": "Departure",
+            "raw_status": "active"
+        },
+        {
+            "flight": "LX9885",
+            "airline": "SWISS",
+            "route": "Indira Gandhi International",
+            "time": "21:05",
+            "status": "En Route",
+            "type": "Departure",
+            "raw_status": "active"
+        },
+        {
+            "flight": "BG374",
+            "airline": "Biman Bangladesh Airlines",
+            "route": "Zia International",
+            "time": "20:45",
+            "status": "Landed",
+            "type": "Departure",
+            "raw_status": "landed"
+        },
+        {
+            "flight": "H9559",
+            "airline": "Himalaya Airlines",
+            "route": "King Fahd International Airport",
+            "time": "20:05",
+            "status": "En Route",
+            "type": "Departure",
+            "raw_status": "active"
+        },
+        {
+            "flight": "H14967",
+            "airline": null,
+            "route": "King Fahd International Airport",
+            "time": "20:05",
+            "status": "En Route",
+            "type": "Departure",
+            "raw_status": "active"
+        },
+        {
+            "flight": "FZ1538",
+            "airline": "flydubai",
+            "route": "Dubai",
+            "time": "19:40",
+            "status": "En Route",
+            "type": "Departure",
+            "raw_status": "active"
+        },
+        {
+            "flight": "EK2156",
+            "airline": "Emirates",
+            "route": "Dubai",
+            "time": "19:40",
+            "status": "En Route",
+            "type": "Departure",
+            "raw_status": "active"
+        },
+        {
+            "flight": "U4669",
+            "airline": "Buddha Air",
+            "route": "Pokhara",
+            "time": "19:30",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "YT689",
+            "airline": "Yeti Airlines",
+            "route": "Pokhara",
+            "time": "19:25",
+            "status": "Scheduled",
+            "type": "Departure",
+            "raw_status": "scheduled"
+        },
+        {
+            "flight": "KE696",
+            "airline": "Korean Air",
+            "route": "Seoul (Incheon)",
+            "time": "19:20",
+            "status": "En Route",
+            "type": "Departure",
+            "raw_status": "active"
+        }
+    ]
+}

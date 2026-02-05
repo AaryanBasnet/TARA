@@ -1,3 +1,6 @@
+TOPIC: Alcoholic beverages
+SOURCE: Forbidden Items
+
 - **Description:** Alcoholic beverages, when in retail packagings, containing more than 24% but not more than 70% alcohol by volume, in receptacles not exceeding 5 L, with a total net quantity per person of 5 L.
 - **Operator Approval Required:** NO
 - **Permitted in Checked Baggage:** YES

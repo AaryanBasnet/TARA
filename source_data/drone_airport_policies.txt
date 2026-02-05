@@ -1,0 +1,22 @@
+---
+Topic: Airport Restrictions
+Access to facilities may be limited in parts, specifically zones within the area of an airport. There are specific areas designated as "no-fly" zones, which include areas around airports.
+
+- Drones are prohibited from flying in and around these restricted zones. This is considered a nationwide and international air traffic hazard.
+- No-fly zones in airport facilities extend from a few hundred meters to 5 km in altitude. The values depend upon the particular airport.
+- Flying in designated restricted zones (like airports) is illegal and can result in penalties, lawsuits, or imprisonment.
+
+---
+Topic: Transporting Drones through Airports
+Check the airline's policies regarding drone transport before traveling. Transportation of a drone in a protective case in checked baggage is allowed by all air carriers.
+
+- It is recommended that drones be kept in a protective case to reduce the risk of damage to the drone's equipment during baggage handling.
+
+---
+Topic: Safety and Air Traffic
+Do not approach airport areas; maintain a safe distance to avoid impeding air travel.
+
+- Verification of no-fly zones is required, particularly near air control facilities.
+- Watch out for these areas to avoid penalties or lawsuits.
+
+---

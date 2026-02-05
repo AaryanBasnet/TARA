@@ -1,3 +1,6 @@
+TOPIC: Gas cylinders for mechanical limbs
+SOURCE: Forbidden Items
+
 - **Description:** Gas cylinders, non-flammable, non-toxic worn for the operation of mechanical limbs. Also, spare cylinders of a similar size if required to ensure an adequate supply for the duration of the journey.
 - **Operator Approval Required:** NO
 - **Permitted in Checked Baggage:** YES

@@ -1,3 +1,6 @@
+TOPIC: Fuel cartridges, spare
+SOURCE: Forbidden Items
+
 - **Description:** Fuel cartridges, spare for portable electronic devices.
 - **Operator Approval Required:** NO
 - **Permitted in Checked Baggage:** YES

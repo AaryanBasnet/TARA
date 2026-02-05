@@ -1,0 +1,1131 @@
+[
+  {
+    "intent": "facilities_wifi",
+    "patterns": ["wifi", "internet"],
+    "examples": [
+      "Is Wi-Fi facility available at the airport?",
+      "Can I get internet access at the airport?",
+      "Does the airport have free Wi-Fi?",
+      "What is the name of the airport's Wi-Fi network?"
+    ],
+    "responses": [
+      "The airport is Wi-Fi enabled and passengers can enjoy **free Wi-Fi** while they are at the airport. A free Wi-Fi link **!!Free_CAAN_WorldLink_WI-Fi!!** is available to connect with internet facility."
+    ]
+  },
+  {
+    "intent": "facilities_helpdesk",
+    "patterns": ["help desk", "information", "query"],
+    "examples": [
+      "Where do I contact for any query and flight information at the airport?",
+      "Who can I ask for flight information?",
+      "Location of the help desk for queries",
+      "Which desks provide information about flights?"
+    ],
+    "responses": [
+      "You can contact the **TIA help desk** or **Police information desk** at the canopy area, **Information desk** at the check-in area, **help desk** at the departure area, **TIA information desk** or **immigration help desk** at the arrival area, **Customs help desk** at the customs area, **Nepal Airlines help desk**, and **Tourist police information center** for query or any information about your flight at the airport."
+    ]
+  },
+  {
+    "intent": "facilities_wheelchair",
+    "patterns": ["wheelchair", "wheelchair assistance"],
+    "examples": [
+      "Is wheelchair assistance available?",
+      "Can I get help with a wheelchair?",
+      "Wheelchair support at the airport",
+      "How to arrange for wheelchair services?"
+    ],
+    "responses": [
+      "Yes, **Wheelchairs are available** at the airport. Please contact your **airline** for further support. You may also contact the **help desk** for assistance."
+    ]
+  },
+  {
+    "intent": "facilities_business_lounge",
+    "patterns": ["business lounge", "lounge"],
+    "examples": [
+      "Is there any business lounge facility at the airport?",
+      "Are there any business lounges for passengers?",
+      "Which hotels operate business lounges?",
+      "Where is the business lounge located?"
+    ],
+    "responses": [
+      "Yes. This facility is available at the **departure area** after immigration and before the final security check in the international terminal. It is being operated by **Hotel Soaltee** and **Hotel Radisson** separately for travelling passengers."
+    ]
+  },
+  {
+    "intent": "facilities_child_care",
+    "patterns": ["child care", "baby feeding room", "nurse infant"],
+    "examples": [
+      "Is there any Child Care lounge facility at the airport?",
+      "Is a baby feeding room available at the airport?",
+      "Where can I nurse my infant?",
+      "Child Care Lounge location"
+    ],
+    "responses": [
+      "For the privacy of mothers who wish to nurse their infants, a **Child Care Lounge (baby feeding room)** with a baby cot is available at the international and domestic departure lounge."
+    ]
+  },
+  {
+    "intent": "facilities_cip_room",
+    "patterns": ["cip room", "commercially important person"],
+    "examples": [
+      "Does the airport have CIP Room facility?",
+      "Can Commercially Important Persons use a special room?",
+      "What is the CIP Room for?",
+      "How to access the CIP Room?"
+    ],
+    "responses": [
+      "Yes. This is available for **Commercially Important Person (CIP)** who on arrival may wish to rest while someone takes care of their formalities (i.e., customs, immigration, and luggage collection). You can avail this room as per the guideline of the office."
+    ]
+  },
+  {
+    "intent": "facilities_money_exchange_atm",
+    "patterns": ["money exchange", "atm", "currency exchange"],
+    "examples": [
+      "Does the airport have a money exchange facility?",
+      "Are there ATMs and money exchange counters?",
+      "Where can I exchange currency at the airport?",
+      "Money exchange counter location"
+    ],
+    "responses": [
+      "Yes. **Two money exchange counters and ATM** are available at the arrival before immigration. An ATM is also available at the public place before entering the international departure terminal of the airport."
+    ]
+  },
+  {
+    "intent": "facilities_credit_card",
+    "patterns": ["credit card", "visa card", "master card"],
+    "examples": [
+      "Can I use a Credit card at the Airport?",
+      "Which credit cards are accepted by shops at the airport?",
+      "Can I pay with Visa or Master Card?",
+      "Are American Express Cards accepted?"
+    ],
+    "responses": [
+      "All shops at the airport accept **Master Card, Visa Cards, and American Express Card**."
+    ]
+  },
+  {
+    "intent": "facilities_accommodation",
+    "patterns": ["hotel", "accommodation", "lodging"],
+    "examples": [
+      "Is there any accommodation facility in and around the airport?",
+      "Can I find a hotel near the airport?",
+      "Are there lodging options inside the airport?",
+      "How far are hotels from the terminal?"
+    ],
+    "responses": [
+      "Accommodation facility **within the airport is not available**. However, **Hotel facilities** are available at 4 minutes walking distance from the airport terminal. Other hotels are available in the downtown city located four kilometers away. Please check the website and book directly with the hotels."
+    ]
+  },
+  {
+    "intent": "facilities_waiting_room",
+    "patterns": ["waiting room"],
+    "examples": [
+      "Is there any waiting room facility at the airport?",
+      "Where is the passenger waiting room?",
+      "How long before my flight can I access the waiting room?",
+      "Waiting room rules"
+    ],
+    "responses": [
+      "Passengers holding a valid ticket to travel within the next **12 hours** can access the **waiting room** at the international terminal **Gate A1 side**. Passenger entry may be restricted without prior notice due to security or operational reasons."
+    ]
+  },
+  {
+    "intent": "facilities_weighing_scale",
+    "patterns": ["weigh baggage", "weighing scale"],
+    "examples": [
+      "Does the airport have a weighing facility before check-in?",
+      "Where can I weigh my baggage before check-in?",
+      "Is there a baggage weighing scale available?",
+      "Weighing facility location"
+    ],
+    "responses": [
+      "Yes, **weighing facility is available** at the airport before entering the check-in area. You may contact the help desk/information desk for further query."
+    ]
+  },
+  {
+    "intent": "facilities_baggage_wrapping",
+    "patterns": ["baggage wrapping", "wrap luggage"],
+    "examples": [
+      "Does the airport have a baggage wrapping facility in the check-in area?",
+      "Where can I get my luggage wrapped?",
+      "Baggage wrapping service location",
+      "Is bag wrapping available at the international terminal?"
+    ],
+    "responses": [
+      "Yes, you can get this facility in the **international terminal check-in area B side**."
+    ]
+  },
+  {
+    "intent": "facilities_smoking_area",
+    "patterns": ["smoking", "smoking area", "smoking lounge"],
+    "examples": [
+      "Does the Airport have smoking areas?",
+      "Are there designated areas for smoking?",
+      "Where is the smoking lounge?",
+      "Rules for smoking at the airport"
+    ],
+    "responses": [
+      "We have designated **smoking areas** in the **departure lounge of the international terminal** building. Smoking is prohibited at all public places as per Government prevailing law."
+    ]
+  },
+  {
+    "intent": "facilities_medical",
+    "patterns": ["medical", "doctor", "ambulance", "nurse"],
+    "examples": [
+      "Does the airport have any medical facility?",
+      "Is there a doctor or nurse at the airport?",
+      "Medical emergency services availability",
+      "Which hospital runs the airport medical center?"
+    ],
+    "responses": [
+      "In the event of a medical emergency, well-trained **doctors and nurses** are available from the airport medical center run by **Kathmandu Medical College (KMC) and HAMS Hospital**. They are available **round the clock** till the operation of the airport and are equipped with emergency treatment centers. **Ambulances** are provided for severe medical emergencies. This facility is available at both domestic and international terminals."
+    ]
+  },
+  {
+    "intent": "facilities_post_office",
+    "patterns": ["post office", "mail"],
+    "examples": [
+      "Does Airport have a post office?",
+      "Where is the Post office located at the airport?",
+      "Can I mail something from the airport?",
+      "Location of post office"
+    ],
+    "responses": [
+      "Yes, the **Post office** is located in the **international terminal check-in area B side**."
+    ]
+  },
+  {
+    "intent": "facilities_trolley_cost",
+    "patterns": ["trolley", "baggage trolley", "trolley cost"],
+    "examples": [
+      "Do I need to pay to use baggage trolley?",
+      "Are baggage trolleys free?",
+      "Is there a charge for baggage carts?",
+      "Cost of using a trolley"
+    ],
+    "responses": [
+      "No, you can use a baggage trolley **free of cost**."
+    ]
+  },
+  {
+    "intent": "facilities_porter_assistance",
+    "patterns": ["porter", "trolley assistance"],
+    "examples": [
+      "Do I need to pay the porters for their assistance while using a baggage trolley at the airport?",
+      "Are the trolley collectors free to assist me?",
+      "Porters for baggage assistance cost",
+      "Can I get help with my trolley for free?"
+    ],
+    "responses": [
+      "They are actually **trolley collectors**, not porters. However, they can assist you in special cases **free of cost**."
+    ]
+  },
+  {
+    "intent": "facilities_left_luggage",
+    "patterns": ["left luggage", "luggage storage", "store luggage"],
+    "examples": [
+      "Is left luggage facility available at the airport?",
+      "Can I store my luggage at the airport terminal?",
+      "Luggage storage facility available?",
+      "Does the airport offer bag storage?"
+    ],
+    "responses": [
+      "No, the **left luggage facility is not available** at the terminal of the airport."
+    ]
+  },
+  {
+    "intent": "facilities_special_needs",
+    "patterns": ["special needs", "disabled", "elderly", "priority queue"],
+    "examples": [
+      "What are the facilities available for passengers with special needs?",
+      "Is there priority queue for elderly or disabled passengers?",
+      "Barrier-free access for special needs passengers",
+      "Assistance for physically challenged persons"
+    ],
+    "responses": [
+      "Kathmandu Airport offers **barrier-free access** for passengers with special needs. There are arrangements for a separate **priority queue** for elderly people, parents with infants, pregnant women, and physically challenged persons. For assistance, you are requested to contact your respective **airlines in advance**. You may contact the help desk or information desk for further query."
+    ]
+  },
+  {
+    "intent": "general_see_off_visitors",
+    "patterns": ["visitors", "see off", "friends and relatives"],
+    "examples": [
+      "Are friends and relatives allowed at the airport premises?",
+      "Can someone accompany me to see off?",
+      "Visitors allowed at the international terminal?",
+      "How many people can see off a passenger?"
+    ],
+    "responses": [
+      "Normally, it is **discouraged to see-off a passenger** due to space constraints. If required, a **maximum of 3 people** are allowed to see off in the international terminal. A public notice has been published regarding the same."
+    ]
+  },
+  {
+    "intent": "general_arrival_pickup_area",
+    "patterns": ["pick up", "welcome guest", "arrival area"],
+    "examples": [
+      "Where can I welcome my relative, friend or guest coming from abroad?",
+      "Where is the international arrival area for greetings?",
+      "Place to pick up guests from abroad",
+      "International arrival welcome area location"
+    ],
+    "responses": [
+      "You can welcome your relative, friend, or guest from the **new arrival area of the international terminal**."
+    ]
+  },
+  {
+    "intent": "general_pregnant_travel",
+    "patterns": ["pregnant", "pregnancy"],
+    "examples": [
+      "Can pregnant travel by air?",
+      "Rules for air travel during pregnancy",
+      "Do pregnant women need a 'Fit to Fly' certificate?",
+      "Is it safe for pregnant women to fly?"
+    ],
+    "responses": [
+      "In most cases, it is safe for women with a normal pregnancy to travel by air. However, it is best to check with the **doctor and airline** before planning the travel. In some cases, pregnant women would require to produce a **“Fit to Fly” certificate**."
+    ]
+  },
+  {
+    "intent": "general_carry_medicines",
+    "patterns": ["medicines", "medication", "prescription"],
+    "examples": [
+      "Can I carry medicines on board?",
+      "Do I need a prescription to carry medication on a flight?",
+      "Rules for carrying medicines in hand baggage",
+      "Medication in flight"
+    ],
+    "responses": [
+      "You are required to carry a **doctor's prescription** for medicines that are to be carried on board. Passengers are advised to get in touch with their respective airlines regarding this issue."
+    ]
+  },
+  {
+    "intent": "general_unaccompanied_minors",
+    "patterns": ["unaccompanied child", "child traveling alone"],
+    "examples": [
+      "Is parent allowed to accompany a child through check-in?",
+      "Handover procedure for unaccompanied minors",
+      "Can parents go with children through check-in?",
+      "Rules for parents of children traveling alone"
+    ],
+    "responses": [
+      "Parents of unaccompanied minors need to contact respective **airlines** for the handover procedure before check-in."
+    ]
+  },
+  {
+    "intent": "general_lost_baggage",
+    "patterns": ["lost luggage", "lost baggage", "missing baggage"],
+    "examples": [
+      "What if my baggage does not arrive at the final destination?",
+      "My luggage is lost or didn't arrive, what should I do?",
+      "Where to report missing baggage?",
+      "Procedure for lost or delayed luggage"
+    ],
+    "responses": [
+      "Kindly contact the **airline you have flown** and register a **complaint with them before leaving the baggage claim area**. It is the airline's responsibility to assist in such a matter."
+    ]
+  },
+  {
+    "intent": "general_baggage_allowance",
+    "patterns": [
+      "luggage limit",
+      "baggage limit",
+      "baggage allowance",
+      "how much luggage",
+      "how many bags",
+      "luggage weight"
+    ],
+    "examples": [
+      "What is the baggage size & weight allowed to be carried in a flight?",
+      "What are the carry-on and checked baggage limits?",
+      "Baggage weight restrictions",
+      "Baggage size guidelines"
+    ],
+    "responses": [
+      "Each airline has a definite guideline with regards to baggage. Kindly contact your **airline** for all questions related to carry-on and/or checked baggage before the date of the flight."
+    ]
+  },
+  {
+    "intent": "security_liquids_limit",
+    "patterns": ["liquids", "lags", "gels", "aerosols"],
+    "examples": [
+      "Can I carry liquid bottles in my hand baggage?",
+      "Rules for liquids in hand luggage",
+      "Allowed Liquids, Aerosols, and Gels (LAGs) limit",
+      "Maximum capacity for liquids in carry-on"
+    ],
+    "responses": [
+      "Passengers can carry Liquids, Aerosols, and Gels (**LAGs**) in containers with a capacity of **not more than 100 ml**. LAGs in a container larger than 100 ml will not be accepted at the security screening checkpoints, even if the container is partially filled."
+    ]
+  },
+  {
+    "intent": "security_valuables_in_baggage",
+    "patterns": ["valuables", "gold in luggage", "money in luggage"],
+    "examples": [
+      "Can a passenger travelling on International flight carry valuable goods in their check-in luggage?",
+      "Is it allowed to put valuables like gold in checked luggage?",
+      "Rules for carrying ornaments/money in checked baggage",
+      "Valuable goods in hand baggage rules"
+    ],
+    "responses": [
+      "No, passengers are **not allowed to carry valuable goods** (e.g., ornaments, gold, silver, money, etc.) in their **checked-in baggage/luggage**. However, they can carry it in **hand baggage** with the prior approval from customs and declaration from the passenger at the airline checking counter during ticket checking."
+    ]
+  },
+  {
+    "intent": "security_prohibited_items_checked",
+    "patterns": ["prohibited items", "forbidden items", "power bank"],
+    "examples": [
+      "What items are not permitted to carry on board in my checked baggage (Hold Baggage)?",
+      "Prohibited items in checked luggage",
+      "Can I put a power bank in checked baggage?",
+      "List of forbidden items in hold luggage"
+    ],
+    "responses": [
+      "Please do not carry the following items in checked baggage:\n* Drugs, Narcotics, and other intoxicating agents.\n* Firearms, ammunition, and explosives.\n* **Power bank**.\n* Dangerous goods.\n* Counterfeit (Forgery) currency.\n* Radioactive materials.\n* Compressed gas, acid, and Mercury.\n* Chemical and Biomaterials.\n* Oily materials e.g. butter(Ghee), edible oil, honey, pickles.\n* Meat items e.g. dry meat, pickles made from meat.\n* Antiques\n* Other items which are restricted to carry as per Government Rule."
+    ]
+  },
+  {
+    "intent": "security_mobility_equipment",
+    "patterns": ["mobility equipment", "personal wheelchair"],
+    "examples": [
+      "Can I travel with my own mobility equipment?",
+      "Rules for carrying personal mobility aids on a flight",
+      "Can I use my own wheelchair at the airport and on the plane?",
+      "Mobility equipment in aircraft cabin or hold"
+    ],
+    "responses": [
+      "Yes, you are free to use your own mobility equipment. For this, you need to **confirm with your airline** whether your device can be used in the aircraft cabin or must be stored in the hold."
+    ]
+  },
+  {
+    "intent": "security_electronics_screening",
+    "patterns": ["laptop", "tablet", "electronics", "electrical items"],
+    "examples": [
+      "What are the rules for electrical items?",
+      "Can I carry laptops and tablets in hand baggage?",
+      "Do I need to take electrical items out for X-Ray screening?",
+      "Rules for carrying electronics on board"
+    ],
+    "responses": [
+      "You can carry **laptops, tablets, kindles, and mobiles in your hand baggage**, but you will be asked to put them **separately through the X-Ray machine** while passing the security channel."
+    ]
+  },
+  {
+    "intent": "security_chargers",
+    "patterns": ["charger", "phone charger"],
+    "examples": [
+      "Are Chargers allowed in hand carry?",
+      "Can I bring a wired charger in my hand luggage?",
+      "Chargers allowed in carry-on bag?",
+      "Rules for bringing phone chargers on the plane"
+    ],
+    "responses": [
+      "Yes, **wired chargers are allowed in hand luggage**."
+    ]
+  },
+  {
+    "intent": "security_metal_detectors_pacemaker",
+    "patterns": ["metal detector", "pacemaker", "wtmd"],
+    "examples": [
+      "Do I have to go through a walk-through metal detectors (WTMD)?",
+      "Do all passengers need to pass through the metal detector?",
+      "Can passengers with a Pace Maker bypass the WTMD?",
+      "Security check for Pace Maker wearers"
+    ],
+    "responses": [
+      "Everyone must go through a walk-through metal detector **except a passenger with a Pace Maker** in their body due to a health problem. They can request the security person of their problem and can be checked manually. It is also advised the passenger with a Pace Maker not to pass through WTMD."
+    ]
+  },
+  {
+    "intent": "security_assistance_physically_challenged",
+    "patterns": ["physically challenged", "assistance for disabled"],
+    "examples": [
+      "Can I get help at the airport if I am physically challenged person?",
+      "How to request assistance for a disabled person?",
+      "How far in advance should I notify the airline for assistance?",
+      "Support for physically challenged travelers"
+    ],
+    "responses": [
+      "Yes. But **inform your airline/travel agent** of your requirement at the time of booking and remind them at least **48 hours before** you travel."
+    ]
+  },
+  {
+    "intent": "security_buy_liquor",
+    "patterns": ["buy liquor", "buy alcohol", "duty paid shop"],
+    "examples": [
+      "Can a passenger buy Liquor and carry them on board?",
+      "Is it possible to buy and carry alcohol from duty paid shops?",
+      "Rules for buying liquor at the airport and carrying it on the plane",
+      "Liquor purchase from duty free/paid shops"
+    ],
+    "responses": [
+      "Passenger can buy Liquor from **duty paid shops** available at the airport and carry them, but according to the **guidelines of the countries**."
+    ]
+  },
+  {
+    "intent": "security_carry_liquor_international",
+    "patterns": ["steb", "security tamper evident bag", "carry alcohol"],
+    "examples": [
+      "Can a passenger travelling on International flight carry liquor?",
+      "Liquor purchased at the airport for international travel",
+      "Does duty-paid liquor need to be sealed in a STEB bag?",
+      "STEB packaging for liquor"
+    ],
+    "responses": [
+      "Passenger can purchase Liquor from **duty paid shops** at the airport. It should be **sealed packed** and should be **STEB (Security Tamper Evident Bag) packaging** as per ICAO regulations."
+    ]
+  },
+  {
+    "intent": "security_liquor_limit_departing",
+    "patterns": ["how much liquor", "liquor limit", "alcohol limit"],
+    "examples": [
+      "How many litres of liquor are departing passengers allowed to carry when on board?",
+      "What is the maximum amount of alcohol I can carry on the plane?",
+      "Limit on liters of liquor for international flight",
+      "Liquor allowance for departing passengers"
+    ],
+    "responses": [
+      "It **depends on the specific requirements of the countries** you are travelling."
+    ]
+  },
+  {
+    "intent": "security_pets",
+    "patterns": ["pet", "dog", "cat", "travel with pet"],
+    "examples": [
+      "Can I take my pet along on my trip?",
+      "What are the rules for traveling with a pet?",
+      "Can I bring my pet on my flight?",
+      "Airline guidelines for carrying a pet"
+    ],
+    "responses": [
+      "Each **airline has its own guideline** to carry a pet. Passengers who wish to carry a pet are advised to contact their respective airline or ticket booking agent before the date of the flight with all possible questions related to carrying a pet along with their trip."
+    ]
+  },
+  {
+    "intent": "transport_dropoff_pickup",
+    "patterns": ["drop off", "pick up in front of terminal"],
+    "examples": [
+      "Is it possible to drop off and pick up someone in front of a terminal?",
+      "Can vehicles stop in front of the international terminal for drop-off?",
+      "Where can the general public pick up passengers?",
+      "Rules for vehicles in front of the terminal"
+    ],
+    "responses": [
+      "Vehicles are permitted only to **drop departing passengers in front of the international terminal**. The general public can pick up their friends and relatives from the **new arrival area of the international terminal**. However, both pick up and drop off facilities are available for VIPs and Diplomatic personnel in front of the international terminal. Vehicles left unattended at the international terminal will be in police custody and fined."
+    ]
+  },
+  {
+    "intent": "transport_parking",
+    "patterns": ["parking", "car park", "parking charges"],
+    "examples": [
+      "What are the details of vehicles parking at the Tribhuvan International Airport?",
+      "Is there paid parking at the airport?",
+      "Where can I park my car at the international terminal?",
+      "Parking charges and free stay time"
+    ],
+    "responses": [
+      "**Paid parking facilities are available** at the airport. Private cars and taxis can be parked at the Car Park located at the **new arrival area of the international terminal**. It can also be parked at the Car Park located in front of the operations/airlines building and domestic terminal. Private vehicles coming to pick up guests are given a stay time of the **first 5 minutes free**, thereafter will be charged as per the rules. However, VIPs and Diplomatic vehicles are advised to park in the parking lot in front of the international terminal."
+    ]
+  },
+  {
+    "intent": "transport_to_airport",
+    "patterns": ["taxi to airport", "bus to airport", "how to get to airport"],
+    "examples": [
+      "How do I travel to the airport from the City?",
+      "What are the transportation options to the airport from the city?",
+      "Can I take a taxi or bus to the airport?",
+      "Ways to reach Tribhuvan International Airport"
+    ],
+    "responses": [
+      "Tribhuvan International Airport is very well connected with the City. Passengers can reach the airport through **taxi, private car, and city bus**."
+    ]
+  },
+  {
+    "intent": "transport_between_terminals",
+    "patterns": [
+      "domestic to international",
+      "international to domestic",
+      "between terminals",
+      "shuttle bus"
+    ],
+    "examples": [
+      "How do I reach domestic terminal from international arrival?",
+      "Distance between international and domestic terminals",
+      "Is there a shuttle bus from international to domestic terminal?",
+      "Cost and frequency of the shuttle bus",
+      "How do I travel between international and domestic terminals?",
+      "Is there a bus service between the terminals?",
+      "Shuttle service between Domestic and International Terminal",
+      "Shuttle bus to the city bus stop"
+    ],
+    "responses": [
+      "The domestic terminal is approximately **500 meters north** of the international terminal. On collecting the baggage, passengers can exit the arrival hall and wait for the **shuttle bus** which will connect the passenger with the domestic terminal **free of cost**. The shuttle bus will arrive in every **20 minutes**. Kindly ask the security person in that area for help. For further assistance, you can visit https://www.tiairport.com.np/",
+      "**Shuttle buses are provided** which connect passengers between the Domestic and International Terminal and also connect to the city bus stop to go to the downtown city."
+    ]
+  },
+  {
+    "intent": "terminal_list",
+    "patterns": ["how many terminals", "list of terminals"],
+    "examples": [
+      "How many terminals does the Kathmandu airport have?",
+      "List of terminals at Tribhuvan International Airport",
+      "Does Kathmandu airport have a Cargo Terminal?",
+      "What are the terminals at TIA?"
+    ],
+    "responses": [
+      "Tribhuvan International Airport has the following terminals:\n* **International Terminal** (Departure and Arrival)\n* **Domestic Terminal** (Departure and Arrival)\n* **Cargo Terminal**"
+    ]
+  },
+  {
+    "intent": "terminal_entry_time",
+    "patterns": ["when to enter terminal", "how early to arrive"],
+    "examples": [
+      "How soon can a passenger enter the International terminal?",
+      "When can I enter the international terminal before my flight?",
+      "Check-in commencement time before departure",
+      "Entry rules for international terminal"
+    ],
+    "responses": [
+      "On the date of travel, a passenger can enter the terminal anytime. But due to the congestion of the terminal, normally **3 hours before the flight**. The check-in commencement time is usually 3 hours prior to departure and the ticket checking counters close at least one hour prior to departure."
+    ]
+  },
+  {
+    "intent": "terminal_arrangements",
+    "patterns": ["terminal layout", "check-in gates", "boarding gates"],
+    "examples": [
+      "What are the arrangements at the terminal?",
+      "How many gates are available for entry into the check-in area?",
+      "Number of boarding gates at the international terminal",
+      "Check-in counter and immigration desk details at International Terminal"
+    ],
+    "responses": [
+      "For passenger convenience, the following arrangements have been made at the International Terminal:\n\n**For the entry into the check-in area:**\n* Four gates (**A1, A2, B1, and B2**) are available at the canopy area of the terminal to enter passengers into the check-in area. You need to show your ticket and passport to the security personnel.\n\n**At the Check-in area:**\n* Ticket check-in counters are available in two parts: **A-side (A01 to A13)** and **B-side (B01 to B21)**. The counter allocation is dynamic (CUTE system), so check the airline counter signage. A fixed **self-check-in kiosk machine** is available for passenger ease in B-side (initially only for Malaysian airlines).\n\n**At the departure immigration:**\n* A total of **14 immigration desks**, including one for VIP/Diplomatic, official, and needy passengers, are available. Queue managers ensure proper alignment and social distancing.\n\n**At the Boarding Gate:**\n* **Seven Boarding gates** are available. Passengers are recommended to sit according to their boarding gate number mentioned on the boarding pass and closely monitor public announcements."
+    ]
+  },
+  {
+    "intent": "immigration_visa_on_arrival_process",
+    "patterns": ["visa on arrival", "how to get visa"],
+    "examples": [
+      "How can I get “On Arrival” Visa?",
+      "Steps to acquire a Visa On Arrival in Nepal",
+      "Do I need to fill out an online 'Tourist Visa' form before arriving?",
+      "Process for Nepal Visa On Arrival"
+    ],
+    "responses": [
+      "You can follow these steps to acquire a Visa On Arrival:\n\n**Step 1:**\n* Get your **arrival card** ready and fill out all details accurately.\n* Fill out the online **‘Tourist Visa’ form** (either prior to arrival on the official Department of Immigration website or by using Kiosk machines upon arrival). Print the submission receipt with the barcode. It is valid for fifteen days.\n\n**Step 2:**\n* **Make payment** at the bank according to your visa requirement (15/30/90 Days).\n* Get the receipt.\n* Proceed to the appropriate immigration desk and hand in your documents to an immigration officer.\n\nFor more information, visit: https://www.immigration.gov.np/page/visa-on-arrival"
+    ]
+  },
+  {
+    "intent": "immigration_visa_on_arrival_type",
+    "patterns": ["visa type", "business visa on arrival"],
+    "examples": [
+      "What are the different kinds of “On Arrival Visa”?",
+      "What type of visa is the On Arrival Visa?",
+      "Can I get a Business Visa On Arrival?",
+      "How to change my visa status if traveling for non-tourism purposes?"
+    ],
+    "responses": [
+      "All 'On Arrival Visas' are **Tourist Visas**. Tourist Visas are Entry Visas. If you are traveling to Nepal for purposes other than tourism, you will have to change your visa status by contacting the Department of Immigration with the necessary documents."
+    ]
+  },
+  {
+    "intent": "immigration_visa_business_meeting",
+    "patterns": ["business meeting visa", "visa for business"],
+    "examples": [
+      "I am travelling to Nepal for a business meeting. What kind of visa should I get to enter Nepal?",
+      "Visa required for a business trip to Nepal",
+      "Can I get a Tourist visa for a business meeting?",
+      "How to apply for a Business Visa for Nepal"
+    ],
+    "responses": [
+      "You have to get a **Tourist visa as an entry visa**. You can get it either from Nepalese diplomatic missions abroad or **On Arrival** (if eligible). If you are investing and running a business in Nepal for the long term, you might consider getting a Business Visa."
+    ]
+  },
+  {
+    "intent": "immigration_visa_multiple_reentry",
+    "patterns": ["multiple reentry visa", "re-entry"],
+    "examples": [
+      "I need Tourist Visa with Multiple Re-entry facility. What can I do?",
+      "Does the Nepal Tourist Visa have a multiple re-entry facility?",
+      "Can I get a multiple re-entry visa on arrival?",
+      "Re-entry facility on Nepal visa"
+    ],
+    "responses": [
+      "All Tourists Visas issued by Nepalese diplomatic missions and 'On Arrival' at the Entry & Exit points (including the Immigration office, Tribhuvan International Airport) bear **multiple Re-entry facility**."
+    ]
+  },
+  {
+    "intent": "immigration_visa_for_minors",
+    "patterns": ["visa for children", "visa for kids", "minors visa"],
+    "examples": [
+      "I have children of 5 years and 6 years. Does he/she need a Visa?",
+      "Do minors under 10 years need a visa for Nepal?",
+      "Is the visa free for children below 10?",
+      "Gratis visa for minors"
+    ],
+    "responses": [
+      "Yes, however, they get it for free. **Minors below 10 years get Gratis visa**."
+    ]
+  },
+  {
+    "intent": "immigration_visa_gratis_defined",
+    "patterns": ["gratis visa", "what is gratis visa"],
+    "examples": [
+      "What is Gratis Visa?",
+      "Definition of Gratis Visa",
+      "Is the Gratis visa free of cost?",
+      "What does 'Gratis' mean in the context of a visa?"
+    ],
+    "responses": [
+      "It is a kind of Visa that is issued **for free**."
+    ]
+  },
+  {
+    "intent": "immigration_indian_citizen_documents",
+    "patterns": ["indian citizen", "indian travel documents", "aadhar card"],
+    "examples": [
+      "I am an Indian citizen? I am travelling to Nepal. What documents do I need to show at the airport?",
+      "Travel documents required for Indian citizens entering Nepal",
+      "Is Aadhar card or Driving license accepted for Indian nationals in Nepal?",
+      "Valid ID for Indian passport holders in Nepal"
+    ],
+    "responses": [
+      "You need to show a document that exclusively proves your nationality. Hence, you need to produce either a **valid Indian Passport or Election Card** (issued by the Election Commission) to enter into Nepal. **Aadhar card or Driving license will not be accepted** as a travel document."
+    ]
+  },
+  {
+    "intent": "immigration_indian_minors_documents",
+    "patterns": ["indian children", "indian kids documents"],
+    "examples": [
+      "I am an Indian passport holder. I am travelling to Nepal with two kids below 12 years. They do not have passport. What should I do?",
+      "Required documents for Indian children under 12 without a passport traveling to Nepal",
+      "Can Indian kids without a passport travel to Nepal?",
+      "Birth certificate requirement for Indian minors"
+    ],
+    "responses": [
+      "It is strongly suggested to travel on a **Passport or Voter ID card** (if possible). However, in case of emergency, the immigration person may ask for a **Birth Certificate issued from the Indian Government**. For further details, please login to the website: https://tia.immigration.gov.np"
+    ]
+  },
+  {
+    "intent": "immigration_nrn_visa",
+    "patterns": ["nrn", "nrn card", "non-resident nepali"],
+    "examples": [
+      "I am an NRN card holder. How many days Gratis visa do I get?",
+      "Gratis visa duration for Non-Resident Nepali (NRN) card holders",
+      "How long is the free visa for NRNs?",
+      "NRN visa rules"
+    ],
+    "responses": [
+      "Gratis visa to an NRN (Non-Resident Nepali) is issued for **30 days** at the moment. It is subject to change as per the directive issued by the Department of Immigration and the Ministry of Home Affairs."
+    ]
+  },
+  {
+    "intent": "immigration_visa_ineligible_countries",
+    "patterns": [
+      "ineligible for visa on arrival",
+      "countries not eligible for visa on arrival"
+    ],
+    "examples": [
+      "I am an Afghan citizen. I learnt that I need Visa prior to my Arrival to Nepal. What should I do?",
+      "Afghan citizens visa requirement for Nepal",
+      "How to get a visa for Nepal if I am not eligible for Visa On Arrival?",
+      "Contacting Nepalese Diplomatic missions for visa",
+      "Which nationals are not eligible for a visa on arrival in Nepal?",
+      "List of countries whose citizens cannot get a visa on arrival",
+      "Countries ineligible for Nepal Visa On Arrival",
+      "Nationals who must obtain a pre-arrival visa for Nepal"
+    ],
+    "responses": [
+      "Please contact your closest **Nepalese Diplomatic missions to obtain a Visa**. Make sure you have a valid visa and passport before you board the plane.",
+      "Nationals from the following countries are **not eligible for a visa on arrival** in Nepal: **Nigeria, Ghana, Zimbabwe, Swaziland, Cameroon, Somalia, Liberia, Ethiopia, Syria, Iraq, Palestine, and Afghanistan**."
+    ]
+  },
+  {
+    "intent": "immigration_visa_pre_arrival",
+    "patterns": ["avoid visa queue", "pre-arrival visa"],
+    "examples": [
+      "I do not want to wait in queue for visa at the Tribhuvan International Airport? What can I do?",
+      "How to avoid the queue for Visa On Arrival at TIA?",
+      "Can I get a visa before arriving in Nepal?",
+      "Pre-Arrival Visa option"
+    ],
+    "responses": [
+      "You can get a **Pre-Arrival Visa** to Nepal from Nepalese diplomatic missions abroad."
+    ]
+  },
+  {
+    "intent": "immigration_visa_processing_time",
+    "patterns": ["visa processing time", "how long for visa"],
+    "examples": [
+      "How long does it take to get Visa “On Arrival” at the TIA?",
+      "Visa on Arrival processing time at Kathmandu Airport",
+      "Expected wait time for On Arrival Visa",
+      "Visa queue duration during peak season"
+    ],
+    "responses": [
+      "Usually, you can get visas in **less than an hour**. Nevertheless, you can expect some delays and queues, especially during the peak tourist season."
+    ]
+  },
+  {
+    "intent": "immigration_visa_payment_currency",
+    "patterns": ["visa fee currency", "pay for visa", "usd for visa"],
+    "examples": [
+      "What currency is accepted for payment of required visa fees?",
+      "Can I pay for my Nepal visa fee in cash?",
+      "What currency should I use for Visa On Arrival payment?",
+      "Accepted currencies for visa fees"
+    ],
+    "responses": [
+      "It is better to carry **American dollars (in cash)** for payment, even though other currencies are accepted too."
+    ]
+  },
+  {
+    "intent": "immigration_visa_payment_card",
+    "patterns": ["pay visa with credit card", "card for visa fee"],
+    "examples": [
+      "Does my Visa/Maestro/American Express card work for visa payment?",
+      "Can I pay for the visa fee with a credit card?",
+      "Are cards accepted for On Arrival Visa fees?",
+      "Payment methods for Nepal visa"
+    ],
+    "responses": [
+      "Yes. But you are advised to carry **cash (American dollars)** as well, at least to cover your Visa expenses."
+    ]
+  },
+  {
+    "intent": "immigration_visa_validity_entry",
+    "patterns": ["visa validity", "how long to enter nepal"],
+    "examples": [
+      "I have obtained visa from Nepalese Embassy in London (United Kingdom). When should I enter Nepal?",
+      "Visa validity period after issuance by Nepalese Embassy",
+      "Time limit for entering Nepal after receiving a pre-arrival visa",
+      "How long do I have to enter Nepal after visa is granted?"
+    ],
+    "responses": [
+      "You should come to Nepal **within 6 months** (from the visa issued date)."
+    ]
+  },
+  {
+    "intent": "immigration_nepali_travel_abroad",
+    "patterns": ["nepali citizen travel abroad", "nepali passport"],
+    "examples": [
+      "I am Nepali passport holder. I am travelling abroad. What should I do?",
+      "Documents required for Nepali citizens traveling abroad",
+      "Visa on Arrival option for Nepali passport holders",
+      "Nepali citizen travel requirements"
+    ],
+    "responses": [
+      "Nepalese citizens travelling abroad require a **valid Nepali passport and visa** for the destination country, except in case of countries where “Visa on Arrival” is available."
+    ]
+  },
+  {
+    "intent": "immigration_nepali_travel_india",
+    "patterns": ["nepali travel to india", "nepali documents for india"],
+    "examples": [
+      "I am Nepali passport holder. I am travelling to India. What should I do?",
+      "Documents required for Nepali citizens traveling to India",
+      "Can a Nepali citizen use a Citizenship Certificate to enter India?",
+      "Travel documents for Nepalese traveling to India with children"
+    ],
+    "responses": [
+      "Nepali citizens must produce a **valid Passport or Nepali citizenship certificate or Election Card** (issued by the Election Commission) to enter India. If traveling with an infant (24 months), you may be asked for a birth certificate, and if traveling with a kid below 16 years, you may be asked for either a valid school ID with a birth date or a valid minor identity card from the Nepal Government."
+    ]
+  },
+  {
+    "intent": "immigration_nepali_foreign_employment",
+    "patterns": ["foreign employment", "labor permit", "nepali worker"],
+    "examples": [
+      "I am Nepalese. I am travelling for foreign employment. What should I do for immigration clearance?",
+      "Documents required for Nepali foreign employment travelers at immigration",
+      "Is a labor permit required for Nepalese foreign workers?",
+      "Immigration check requirements for Nepali foreign employees"
+    ],
+    "responses": [
+      "You must present the following documents to an immigration officer in the departure desks:\n* **Valid passport and Visa**.\n* **Boarding pass** to the final destination.\n* **Labor permit** issued by the Government of Nepal.\n* Other documents as appropriate and requested.\nAfter immigration checks, proceed to security checks. Make sure your departure is certified in your boarding pass and travel document (Passport)."
+    ]
+  },
+  {
+    "intent": "immigration_nepali_tourist_visit",
+    "patterns": ["nepali tourist visa", "nepali visit visa"],
+    "examples": [
+      "I am Nepalese. I am travelling abroad for tourism and /or Visit. What should I do for immigration clearance?",
+      "Immigration requirements for Nepali citizens on a Tourist/Visit Visa",
+      "Is cash currency required for Nepalese traveling abroad for tourism?",
+      "Documents needed for Nepali tourists at departure immigration"
+    ],
+    "responses": [
+      "Nepalese citizens travelling on a Tourist/Visit Visa shall produce the following documents at the departure desk of immigration:\n* **Valid passport and Visa** clarifying the purpose of travel.\n* **Two-way air-ticket**.\n* **Hotel booking**.\n* A letter exhibiting details of the **sponsor** (individual or institution).\n* **500 US dollars (cash/dollar or equivalent foreign currency) and authorized stamp/seal of the related bank** is required.\n* Other documents as appropriate and requested.\nIf you are traveling to visit your spouse working in Gulf countries, you must produce a recommendation letter issued by the concerned Nepalese Embassy verifying your invitation. Valid Nepali passport and visa are required for the destination country, except where \"Visa on Arrival\" is available."
+    ]
+  },
+  {
+    "intent": "immigration_nepali_institutional_travel",
+    "patterns": ["institutional travel", "seminar travel"],
+    "examples": [
+      "I am Nepalese. I am travelling abroad for institutional purpose. What should I do for immigration clearance?",
+      "Immigration check for Nepali citizens traveling for seminars or institutional programs",
+      "Required documents for institutional travel abroad by Nepali nationals",
+      "Passport validity and invitation letter for institutional travel"
+    ],
+    "responses": [
+      "The Nepali Citizens traveling abroad for Institutional purposes (e.g., Seminars, Exhibitions, Knowledge and Skill exchange programs, etc.) shall produce the following documents at the departure desk of immigration:\n* **Passport valid at least for 6 months**.\n* **VISA of the inviting country**.\n* **Invitation letter and program details** explaining the purpose of the visit.\n* **Two-way air ticket**.\n* A document clarifying the **institutional association**.\n* Other documents as appropriate and requested."
+    ]
+  },
+  {
+    "intent": "customs_television",
+    "patterns": ["television", "tv", "bringing tv"],
+    "examples": [
+      "Can I bring a television from abroad?",
+      "Customs rules for bringing a TV into Nepal",
+      "Duty-free TV size limit for non-social security fund members",
+      "Rules for televisions brought by foreign employed Nepali citizens"
+    ],
+    "responses": [
+      "Nepali citizens in foreign employment and residing abroad for at least 12 months with prior approval from the labor ministry and connected with the government’s social security fund can bring **any type and size of television**. Those not connected can bring only up to **32 inches television without paying customs duty**. Others returning from training/seminar and residing abroad for less than 12 months can bring a television with customs duty. For more information, visit https://customs.gov.np/"
+    ]
+  },
+  {
+    "intent": "customs_mobile_phones",
+    "patterns": ["mobile phone", "how many phones", "second phone"],
+    "examples": [
+      "How many mobile phones can I carry to Nepal?",
+      "Customs limit on the number of mobile phones",
+      "Can Nepali foreign employees bring an extra mobile phone duty-free?",
+      "Rules for bringing a second mobile phone into Nepal"
+    ],
+    "responses": [
+      "Normally, you are allowed to carry **only one mobile phone** for your personal use. Nepali citizens in foreign employment and residing abroad for at least 6 months with prior approval from the labor ministry can bring **one extra mobile phone without paying customs duty**. You may be asked to complete customs process for the extra phone. For more information, visit https://customs.gov.np/"
+    ]
+  },
+  {
+    "intent": "customs_gold_jewelry",
+    "patterns": ["gold jewelry", "ornaments"],
+    "examples": [
+      "Can I allowed to bring gold jewelry items?",
+      "Duty-free limit for gold jewelry for male and female passengers",
+      "Maximum allowed weight for gold jewelry with customs duty",
+      "Customs rules for bringing gold jewelry"
+    ],
+    "responses": [
+      "Normally, it is allowed to bring **50 grams of gold jewelry for female and 25 grams for male without paying customs duty**. On top of this, you are allowed to bring up to **100 grams with customs duty** and another **100 grams with extra 3% charges** on the applicable customs duty. Gold jewelry more than 225 grams for male and 250 grams for female are **not allowed** in any case and will be seized. *Note: Beruwa rings, Bangles, chain like jewelry made from 24 carat gold (free from alloy) which looks like ornaments will not be considered as ornaments.* For more information, visit https://customs.gov.np/"
+    ]
+  },
+  {
+    "intent": "customs_gold_raw",
+    "patterns": ["gold", "gold bar", "gold bullion", "how much gold"],
+    "examples": [
+      "What is the customs limit for gold?",
+      "Maximum amount of gold (not jewelry) allowed into Nepal",
+      "Customs duty on 100 grams of 24 carat gold",
+      "Customs rules for carrying gold bullion/bars"
+    ],
+    "responses": [
+      "You are allowed to bring **100 grams of gold (24 carat gold, not jewelry) with customs duty**."
+    ]
+  },
+  {
+    "intent": "customs_liquor",
+    "patterns": [
+      "liquor",
+      "alcohol",
+      "duty free liquor",
+      "how much alcohol",
+      "beer",
+      "wine",
+      "whiskey"
+    ],
+    "examples": [
+      "How much liquor is allowed as duty free while travelling to Nepal?",
+      "Duty-free allowance for alcohol in Nepal customs",
+      "Limit on liquor carried into Nepal without paying duty",
+      "Maximum amount of alcoholic liquor allowed",
+      "How much alcohol can I bring?",
+      "Can I bring wine or beer?"
+    ],
+    "responses": [
+      "You are allowed to carry **one litre of any type of alcoholic liquor** (whiskey, wine, vodka, etc.) OR **12 cans of beer** without paying customs duty. Amounts exceeding this limit are subject to customs duty. For more information, visit https://customs.gov.np/"
+    ]
+  },
+  {
+    "intent": "customs_gold_gifts",
+    "patterns": ["gold gift", "jewelry as gift"],
+    "examples": [
+      "Can I send gold jewelry as a gift to my friends and relatives?",
+      "Do I have to pay customs duty on gold jewelry gifts?",
+      "Customs rules for gifting gold jewelry",
+      "Duty on gift items"
+    ],
+    "responses": [
+      "Yes, but you have to **pay customs duty** as per the customs rule in gift items."
+    ]
+  },
+  {
+    "intent": "customs_red_green_channel",
+    "patterns": ["red channel", "green channel", "dutiable goods"],
+    "examples": [
+      "Who can pass through Green channel or Red channel at the customs?",
+      "Difference between Green and Red customs channels",
+      "Which customs channel should I use if I have dutiable goods?",
+      "Consequences of choosing the Green channel with dutiable items"
+    ],
+    "responses": [
+      "Passengers who **do not have dutiable goods** to declare can pass through the **Green channel**. Passengers who **have dutiable goods** to declare can pass through the **Red channel**. If a passenger chooses the Green channel with dutiable goods or prohibited items, their goods may be seized."
+    ]
+  },
+  {
+    "intent": "customs_foreign_currency_arrival",
+    "patterns": ["foreign currency", "how much cash", "declare money"],
+    "examples": [
+      "What is the rule of carrying foreign currency?",
+      "Maximum foreign currency allowed to carry into Nepal without declaration",
+      "Declaration requirement for foreign currency above US Dollar 5000",
+      "Anti-Money Laundering Act currency declaration limit"
+    ],
+    "responses": [
+      "Nepalese or foreign citizens can carry foreign currency worth **US Dollar 5000 (Five Thousands) or equivalent** other foreign currency when coming to Nepal. If carrying **more than this amount, you must self-declare** (as per the Anti-Money Laundering Act, 2064) at customs."
+    ]
+  },
+  {
+    "intent": "customs_foreign_currency_departure_nepali",
+    "patterns": ["nepali carrying foreign currency", "declare currency in passport"],
+    "examples": [
+      "I am Nepalese passport holder. I am travelling abroad. How can I carry foreign currency?",
+      "Rules for Nepalese citizens carrying foreign currency abroad",
+      "Do I need to declare foreign currency in my Nepali passport?",
+      "Foreign currency regulations for Nepalese departing the country"
+    ],
+    "responses": [
+      "Nepalese citizens travelling abroad carrying convertible foreign currency must **mention about the foreign currency in their passport**."
+    ]
+  },
+  {
+    "intent": "customs_foreign_currency_departure_foreign",
+    "patterns": ["cash limit leaving nepal", "taking money out of nepal"],
+    "examples": [
+      "What is the cash limits in Nepal customs?",
+      "Maximum cash amount a foreign citizen can take out of Nepal",
+      "Export limit for foreign currency from Nepal",
+      "Can I take more money out than I declared when entering?"
+    ],
+    "responses": [
+      "Foreign citizens are **not allowed to take with them more than US Dollar 5000** or equivalent in other foreign currency in cash when returning from Nepal, but there won’t be an obstacle to take the money within the limits of the **self-declared amount** while entering Nepal."
+    ]
+  },
+  {
+    "intent": "customs_laptop",
+    "patterns": ["laptop", "bringing laptop", "computer"],
+    "examples": [
+      "Can I bring Laptop from abroad?",
+      "Customs duty for bringing one laptop into Nepal",
+      "Laptop allowance for personal use",
+      "Age requirement for bringing a laptop duty-free",
+      "Can I bring a laptop without paying duty?",
+      "How many laptops can I bring?"
+    ],
+    "responses": [
+      "Any person **above the age of 18 years** can bring **one Laptop** for personal use **without paying customs duty**. Additional laptops may be subject to customs duty."
+    ]
+  },
+  {
+    "intent": "customs_cigarettes",
+    "patterns": ["cigarette", "tobacco", "cigar", "smoking products"],
+    "examples": [
+      "How many cigarettes can I bring?",
+      "What is the cigarette limit?",
+      "Tobacco allowance Nepal",
+      "Can I bring cigars?",
+      "How much tobacco is allowed?"
+    ],
+    "responses": [
+      "You are allowed to bring the following tobacco products duty-free: **200 cigarettes** (one carton), OR **50 cigars**, OR **250 grams of tobacco**. This allowance is per person aged 18 years or above. Amounts exceeding these limits are subject to customs duty."
+    ]
+  },
+  {
+    "intent": "visa_fees",
+    "patterns": ["visa fee", "visa cost", "visa price", "how much visa"],
+    "examples": [
+      "How much does a tourist visa cost?",
+      "How much does a 30-day tourist visa cost?",
+      "What is the visa fee for Nepal?",
+      "Visa on arrival fees",
+      "How much for 90 day visa?"
+    ],
+    "responses": [
+      "Nepal Tourist Visa fees are: **15-day visa: USD 30**, **30-day visa: USD 50**, **90-day visa: USD 125**. Visa extension costs USD 3 per day (minimum 15 days). Multiple re-entry facility costs additional USD 25. Late overstay fine is USD 5 per day. SAARC nationals (except Afghanistan) and children under 10 years get free visa."
+    ]
+  },
+  {
+    "intent": "drone_policy",
+    "patterns": ["drone", "uav", "quadcopter"],
+    "examples": [
+      "Can I bring a drone to Nepal?",
+      "Drone rules Nepal",
+      "Is drone allowed in Nepal?",
+      "Drone permit Nepal",
+      "How to bring drone to Nepal?"
+    ],
+    "responses": [
+      "Bringing and operating drones in Nepal requires specific procedures: **1)** Drones can be transported in checked baggage in a protective case. **2)** Upon arrival at TIA, declare the drone at customs and obtain a customs clearance certificate. **3)** To fly the drone, you need approval from Civil Aviation Authority of Nepal (CAAN), Ministry of Home Affairs security clearance, and local authority permission. Flying is prohibited near airports (5km radius), government/military buildings, and national parks without permits. Flying without permits can result in drone confiscation and fines."
+    ]
+  },
+  {
+    "intent": "info_flight_times",
+    "patterns": ["flight time", "arrival time", "departure time", "fids"],
+    "examples": [
+      "How can I check the flight arrival or departure timings?",
+      "Where can I find the latest flight updates?",
+      "Contact number for international flight information",
+      "What is FIDS?"
+    ],
+    "responses": [
+      "Flight Information Display System (**FIDS**) is displayed in most places of the terminal and provides the latest updates. Flight information can also be obtained by contacting the **airline directly**. You may also contact the office telephone on **+977-1-4113163** (For international flights) and **+977-1-4113299** (For domestic flights) or check international flight time on the Tribhuvan International Airport website: https://www.tiairport.com.np/all-flights"
+    ]
+  },
+  {
+    "intent": "complain_food_quality",
+    "patterns": ["food complaint", "bad food"],
+    "examples": [
+      "What happens if the foods I purchase at the airport do not meet quality standards?",
+      "How to complain about food quality at the airport?",
+      "Where can I register a complaint about airport food?",
+      "Email address for food quality complaints"
+    ],
+    "responses": [
+      "You are requested to register a **complaint at the airport terminal duty office**. Necessary steps will be taken. You may also lodge a complaint by sending a detailed mail to **planstat@tiairport.com.np**"
+    ]
+  },
+  {
+    "intent": "complain_damaged_baggage",
+    "patterns": ["damaged luggage", "damaged bag", "broken suitcase"],
+    "examples": [
+      "My luggage was damaged/lost during my trip. Where should I report this?",
+      "Procedure for lost or damaged luggage",
+      "Who to contact for damaged baggage compensation?",
+      "Where to report lost luggage upon arrival?"
+    ],
+    "responses": [
+      "**Lost luggage** should be reported **immediately at the airport upon arrival before leaving the baggage area**. Concerned airline or Nepal Airlines staff will contact the passenger when the luggage has been located. Any **damage** should also be reported immediately. Requests for financial compensation can be submitted to concerned airlines or the NAC Customer Services Department Relations in the case of Nepal Airlines Corporation. If you have travel insurance, you can submit your claim to your insurance company along with the report form received from the baggage claim area."
+    ]
+  },
+  {
+    "intent": "complain_lost_item",
+    "patterns": ["lost item", "lost and found", "i lost something"],
+    "examples": [
+      "Who do I contact if I have lost something at the airport?",
+      "Lost and Found unit contact details",
+      "Email for lost items at the airport",
+      "How to report a lost item at TIA?"
+    ],
+    "responses": [
+      "Please get in touch with the **“Lost & Found unit”** at the airport or call **+977-1-4113163**. You may address your concern on lost items to **lost_found@tiairport.com.np** or click https://www.tiairport.com.np/lostandfound"
+    ]
+  },
+  {
+    "intent": "unknown",
+    "patterns": [],
+    "examples": [],
+    "responses": [
+      "I'm not sure about that yet.",
+      "I'm sorry, I don't understand that question.",
+      "I do not have information about that at the moment."
+    ]
+  }
+]

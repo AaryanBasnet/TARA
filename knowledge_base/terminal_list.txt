@@ -1,0 +1,8 @@
+TOPIC: Terminal List
+
+RELATED QUESTIONS: How many terminals does the Kathmandu airport have?; List of terminals at Tribhuvan International Airport; Does Kathmandu airport have a Cargo Terminal?
+
+ANSWER: Tribhuvan International Airport has the following terminals:
+* International Terminal (Departure and Arrival)
+* Domestic Terminal (Departure and Arrival)
+* Cargo Terminal

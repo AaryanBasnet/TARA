@@ -1,3 +1,6 @@
+TOPIC: Residential Visa
+SOURCE: Visa Fee Documents
+
 DESCRIPTION:
 - Issued to the following foreigners and their family intending to spend life in Nepal:
 - Persons with an international reputation
@@ -11,25 +14,25 @@ FEE (USD): 1200 USD per year
 
 REQUIRED DOCUMENT:
 - For Foreigners who invest minimum of 100 thousands USD:
- - Copy of Company registration certificate
- - Copy of PAN/VAT certificate
- - Copy of the share certificate
- - Copy of Industry registration certificate
- - Recommendation from Dept. of Industry or Commerce
- - Copy of Passport and recent Nepali visa
- - Tax clearance certificate for renewal
- - Other supporting documents, if required
+- Copy of Company registration certificate
+- Copy of PAN/VAT certificate
+- Copy of the share certificate
+- Copy of Industry registration certificate
+- Recommendation from Dept. of Industry or Commerce
+- Copy of Passport and recent Nepali visa
+- Tax clearance certificate for renewal
+- Other supporting documents, if required
 - For Foreigners who wants to live in Nepal without doing any business:
- - Bank statement of USD 20,000
- - Certificate having regular income of at least USD 20,000 per year (verified/attested by the concerned embassy)
- - Character Certificate
- - No Objection letter from concerned country of Embassy
- - Health certificate issued by TU Teaching Hospital
- - The evidence of completing 60 years or proof of retirement
- - Copy of valid passport and recent Nepali visa
- - Expenditure statement of USD 20,000 for renewal
- - Valid Passport, if required
- - Other supporting documents, if required
+- Bank statement of USD 20,000
+- Certificate having regular income of at least USD 20,000 per year (verified/attested by the concerned embassy)
+- Character Certificate
+- No Objection letter from concerned country of Embassy
+- Health certificate issued by TU Teaching Hospital
+- The evidence of completing 60 years or proof of retirement
+- Copy of valid passport and recent Nepali visa
+- Expenditure statement of USD 20,000 for renewal
+- Valid Passport, if required
+- Other supporting documents, if required
 
 WHO CAN APPLY & HOW:
 - Applicant can apply from the online portal: https://nepaliport.immigration.gov.np/

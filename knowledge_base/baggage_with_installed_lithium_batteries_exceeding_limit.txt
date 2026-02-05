@@ -1,3 +1,6 @@
+TOPIC: Baggage with installed lithium batteries (Exceeding Limit)
+SOURCE: Forbidden Items
+
 - **Description:** Baggage with installed lithium batteries non-removable batteries exceeding 0.3g lithium metal or 2.7Wh.
 - **Operator Approval Required:** FORBIDDEN
 - **Permitted in Checked Baggage:** FORBIDDEN

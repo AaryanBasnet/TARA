@@ -1,3 +1,6 @@
+TOPIC: Insulated packagings (Dry Shipper)
+SOURCE: Forbidden Items
+
 - **Description:** Insulated packagings containing refrigerated liquid nitrogen (dry shipper), fully absorbed in a porous material containing only non-dangerous goods.
 - **Operator Approval Required:** NO
 - **Permitted in Checked Baggage:** YES

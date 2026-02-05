@@ -1,0 +1,5 @@
+TOPIC: Drone Policy
+
+RELATED QUESTIONS: Can I bring a drone to Nepal?; Drone rules Nepal; Is drone allowed in Nepal?
+
+ANSWER: Bringing and operating drones in Nepal requires specific procedures: 1) Drones can be transported in checked baggage in a protective case. 2) Upon arrival at TIA, declare the drone at customs and obtain a customs clearance certificate. 3) To fly the drone, you need approval from Civil Aviation Authority of Nepal (CAAN), Ministry of Home Affairs security clearance, and local authority permission. Flying is prohibited near airports (5km radius), government/military buildings, and national parks without permits. Flying without permits can result in drone confiscation and fines.

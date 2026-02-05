@@ -1,0 +1,554 @@
+{
+  "metadata": {
+    "evaluation_date": "2025-12-17T01:43:19.027034",
+    "model": "qwen2.5:3b",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "total_test_cases": 50
+  },
+  "retrieval_results": [
+    {
+      "question": "Is there free wifi at the airport?",
+      "expected_topic": "facilities_wifi",
+      "retrieved_topics": [
+        "free wifi",
+        "facilities wifi"
+      ],
+      "found_at_rank": 2,
+      "success": true
+    },
+    {
+      "question": "Where is the smoking area?",
+      "expected_topic": "facilities_smoking_area",
+      "retrieved_topics": [
+        "facilities smoking area"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "Is wheelchair assistance available?",
+      "expected_topic": "facilities_wheelchair",
+      "retrieved_topics": [
+        "facilities wheelchair"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "Where can I exchange money?",
+      "expected_topic": "facilities_money_exchange_atm",
+      "retrieved_topics": [
+        "facilities money exchange atm"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "Is there a baby feeding room?",
+      "expected_topic": "facilities_child_care",
+      "retrieved_topics": [
+        "baby feeding room",
+        "facilities child care"
+      ],
+      "found_at_rank": 2,
+      "success": true
+    },
+    {
+      "question": "How many mobile phones can I bring to Nepal?",
+      "expected_topic": "customs_mobile_phones",
+      "retrieved_topics": [
+        "customs mobile phones"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "What is the gold allowance for tourists?",
+      "expected_topic": "customs_gold",
+      "retrieved_topics": [
+        "customs gold jewelry"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "Can I bring a laptop without paying duty?",
+      "expected_topic": "customs_laptop",
+      "retrieved_topics": [
+        "customs laptop"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "How much alcohol can I bring?",
+      "expected_topic": "customs_liquor",
+      "retrieved_topics": [
+        "alcoholic beverages",
+        "customs requirements",
+        "security liquids limit"
+      ],
+      "found_at_rank": 4,
+      "success": false
+    },
+    {
+      "question": "What is the cigarette limit?",
+      "expected_topic": "customs_cigarettes",
+      "retrieved_topics": [
+        "customs cigarettes"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "Do I need to declare foreign currency?",
+      "expected_topic": "customs_currency",
+      "retrieved_topics": [
+        "customs at arrival",
+        "customs foreign currency departure nepali"
+      ],
+      "found_at_rank": 2,
+      "success": true
+    },
+    {
+      "question": "What is the difference between green and red channel?",
+      "expected_topic": "customs_channels",
+      "retrieved_topics": [
+        "customs red green channel",
+        "customs requirements",
+        "customs at arrival"
+      ],
+      "found_at_rank": null,
+      "success": false
+    },
+    {
+      "question": "Can I bring a drone to Nepal?",
+      "expected_topic": "drone_policy",
+      "retrieved_topics": [
+        "drone policy"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "What items are prohibited in checked baggage?",
+      "expected_topic": "prohibited_items",
+      "retrieved_topics": [
+        "security prohibited items checked"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "How much does a 30-day tourist visa cost?",
+      "expected_topic": "visa_fees",
+      "retrieved_topics": [
+        "visa fees"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "Can I get visa on arrival?",
+      "expected_topic": "visa_on_arrival",
+      "retrieved_topics": [
+        "immigration visa on arrival process"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "Do Indian citizens need a visa for Nepal?",
+      "expected_topic": "visa_exemption",
+      "retrieved_topics": [
+        "faqs related to arrival to nepal",
+        "immigration counter",
+        "official visa"
+      ],
+      "found_at_rank": null,
+      "success": false
+    },
+    {
+      "question": "What documents do I need for visa?",
+      "expected_topic": "visa_documents",
+      "retrieved_topics": [
+        "non-tourist visa - working visa",
+        "immigration nepali travel abroad",
+        "non tourist visa"
+      ],
+      "found_at_rank": null,
+      "success": false
+    },
+    {
+      "question": "How do I get a taxi from the airport?",
+      "expected_topic": "prepaid_taxi",
+      "retrieved_topics": [
+        "ground transportation",
+        "pre-paid taxi service"
+      ],
+      "found_at_rank": 2,
+      "success": true
+    },
+    {
+      "question": "Is there parking at the airport?",
+      "expected_topic": "parking",
+      "retrieved_topics": [
+        "transport parking"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "Where do I report lost baggage?",
+      "expected_topic": "lost_baggage",
+      "retrieved_topics": [
+        "general lost baggage"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "Is baggage wrapping service available?",
+      "expected_topic": "baggage_wrapping",
+      "retrieved_topics": [
+        "baggage wrapping services"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "Are trolleys free at the airport?",
+      "expected_topic": "trolley_services",
+      "retrieved_topics": [
+        "trolley services"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "Is there a medical facility at the airport?",
+      "expected_topic": "medical_services",
+      "retrieved_topics": [
+        "facilities medical",
+        "medical services"
+      ],
+      "found_at_rank": 2,
+      "success": true
+    },
+    {
+      "question": "Where can I find the help desk?",
+      "expected_topic": "facilities_helpdesk",
+      "retrieved_topics": [
+        "police help desk",
+        "information desk",
+        "baggage help desk"
+      ],
+      "found_at_rank": 4,
+      "success": false
+    },
+    {
+      "question": "Is there a business lounge?",
+      "expected_topic": "facilities_business_lounge",
+      "retrieved_topics": [
+        "facilities business lounge"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "What is the CIP room?",
+      "expected_topic": "facilities_cip_room",
+      "retrieved_topics": [
+        "facilities cip room"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "How long can I stay with tourist visa?",
+      "expected_topic": "visa_duration",
+      "retrieved_topics": [
+        "check your documents",
+        "faqs relating to study visa",
+        "tourist visa extension"
+      ],
+      "found_at_rank": null,
+      "success": false
+    },
+    {
+      "question": "Can I extend my visa in Nepal?",
+      "expected_topic": "visa_extension",
+      "retrieved_topics": [
+        "faqs related to relation visa",
+        "tourist visa",
+        "getting started - department of immigration"
+      ],
+      "found_at_rank": null,
+      "success": false
+    },
+    {
+      "question": "Do I need a permit for Everest region?",
+      "expected_topic": "trekking_permits",
+      "retrieved_topics": [
+        "faqs - new trekking provision general rules",
+        "drone policy",
+        "departure procedures"
+      ],
+      "found_at_rank": null,
+      "success": false
+    },
+    {
+      "question": "Where can I get a trekking permit at airport?",
+      "expected_topic": "trekking_permits",
+      "retrieved_topics": [
+        "faqs related to trekking permits"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "What items cannot be carried in hand baggage?",
+      "expected_topic": "prohibited_hand_baggage",
+      "retrieved_topics": [
+        "packing valuables",
+        "security prohibited items checked",
+        "guide to dangerous goods"
+      ],
+      "found_at_rank": null,
+      "success": false
+    },
+    {
+      "question": "What should I do after landing at TIA?",
+      "expected_topic": "arrival_process",
+      "retrieved_topics": [
+        "departure message",
+        "arriving at tia",
+        "departure message"
+      ],
+      "found_at_rank": null,
+      "success": false
+    },
+    {
+      "question": "How early should I arrive for international flight?",
+      "expected_topic": "departure_info",
+      "retrieved_topics": [
+        "how early should i get to the airport",
+        "when to arrive at airport",
+        "terminal entry time"
+      ],
+      "found_at_rank": null,
+      "success": false
+    },
+    {
+      "question": "Can I use credit card at the airport?",
+      "expected_topic": "facilities_credit_card",
+      "retrieved_topics": [
+        "facilities credit card"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "Is there a charging station for phones?",
+      "expected_topic": "charging_hub",
+      "retrieved_topics": [
+        "charging hub"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "Where can I eat at the airport?",
+      "expected_topic": "restaurants",
+      "retrieved_topics": [
+        "food court & lounge",
+        "restaurants and cafeteria"
+      ],
+      "found_at_rank": 2,
+      "success": true
+    },
+    {
+      "question": "Can I bring medicine to Nepal?",
+      "expected_topic": "customs_medicine",
+      "retrieved_topics": [
+        "travel tips",
+        "customs declaration",
+        "travel tips"
+      ],
+      "found_at_rank": null,
+      "success": false
+    },
+    {
+      "question": "Can I get VAT refund?",
+      "expected_topic": "vat_refund",
+      "retrieved_topics": [
+        "how to claim vat refund"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    },
+    {
+      "question": "How can I get a SIM card at the airport?",
+      "expected_topic": "sim_card",
+      "retrieved_topics": [
+        "how to get sim card"
+      ],
+      "found_at_rank": 1,
+      "success": true
+    }
+  ],
+  "summary": {
+    "categories": {
+      "facilities": {
+        "total": 8,
+        "difficulties": {
+          "easy": 8
+        }
+      },
+      "customs": {
+        "total": 8,
+        "difficulties": {
+          "medium": 7,
+          "easy": 1
+        }
+      },
+      "prohibited": {
+        "total": 2,
+        "difficulties": {
+          "hard": 1,
+          "medium": 1
+        }
+      },
+      "visa": {
+        "total": 4,
+        "difficulties": {
+          "easy": 3,
+          "medium": 1
+        }
+      },
+      "flight": {
+        "total": 5,
+        "difficulties": {
+          "easy": 2,
+          "medium": 3
+        }
+      },
+      "weather": {
+        "total": 1,
+        "difficulties": {
+          "easy": 1
+        }
+      },
+      "transport": {
+        "total": 2,
+        "difficulties": {
+          "easy": 2
+        }
+      },
+      "baggage": {
+        "total": 3,
+        "difficulties": {
+          "easy": 3
+        }
+      },
+      "services": {
+        "total": 4,
+        "difficulties": {
+          "easy": 3,
+          "medium": 1
+        }
+      },
+      "immigration": {
+        "total": 2,
+        "difficulties": {
+          "easy": 1,
+          "medium": 1
+        }
+      },
+      "trekking": {
+        "total": 2,
+        "difficulties": {
+          "medium": 2
+        }
+      },
+      "safety": {
+        "total": 1,
+        "difficulties": {
+          "medium": 1
+        }
+      },
+      "arrival": {
+        "total": 1,
+        "difficulties": {
+          "medium": 1
+        }
+      },
+      "departure": {
+        "total": 1,
+        "difficulties": {
+          "easy": 1
+        }
+      },
+      "complex": {
+        "total": 1,
+        "difficulties": {
+          "hard": 1
+        }
+      },
+      "out_of_scope": {
+        "total": 2,
+        "difficulties": {
+          "medium": 1,
+          "easy": 1
+        }
+      },
+      "vat": {
+        "total": 1,
+        "difficulties": {
+          "medium": 1
+        }
+      },
+      "sim": {
+        "total": 2,
+        "difficulties": {
+          "easy": 1,
+          "hard": 1
+        }
+      }
+    },
+    "retrieval": {
+      "total_queries": 40,
+      "hit_at_k": {
+        "1": 55.0,
+        "3": 70.0,
+        "5": 75.0
+      },
+      "mrr": 0.6375
+    },
+    "tool_selection": {
+      "overall_accuracy": 93.75,
+      "by_tool": {
+        "get_general_airport_info": {
+          "correct": 41,
+          "total": 41
+        },
+        "get_flight_status_from_json": {
+          "correct": 2,
+          "total": 3
+        },
+        "search_flights_by_route": {
+          "correct": 1,
+          "total": 2
+        },
+        "get_kathmandu_weather_openmeteo": {
+          "correct": 1,
+          "total": 1
+        },
+        "process_sim_card_kyc": {
+          "correct": 0,
+          "total": 1
+        }
+      }
+    }
+  }
+}

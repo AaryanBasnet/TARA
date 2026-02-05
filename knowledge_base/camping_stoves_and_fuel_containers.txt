@@ -1,3 +1,6 @@
+TOPIC: Camping stoves and fuel containers
+SOURCE: Forbidden Items
+
 - **Description:** Camping stoves and fuel containers that have contained a flammable liquid fuel, with empty fuel tank and/or fuel container.
 - **Operator Approval Required:** YES
 - **Permitted in Checked Baggage:** YES

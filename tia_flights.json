@@ -1,8 +1,8 @@
 {
   "flights": [
     {
-      "flight_iata": "RA205",
-      "airline": "Nepal Airlines",
+      "flight_iata": "SQ700",
+      "airline": "Singapore Airlines",
       "from_to": "New Delhi (DEL)",
       "status": "On Time",
       "gate": "B3"

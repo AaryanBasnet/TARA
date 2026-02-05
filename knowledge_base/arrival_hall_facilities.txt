@@ -1,3 +1,6 @@
+TOPIC: Arrival Hall Facilities
+SOURCE: Arrival Info
+
 The arrival hall has the following facilities:
 - Himalaya Money Exchange
 - Yeti Money Exchange

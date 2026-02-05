@@ -1,3 +1,6 @@
+TOPIC: Arrival Lounge Facilities
+SOURCE: Arrival Info
+
 Once you step out of the custom area, you are in the arrival lounge, which has the following facilities:
 
 CIP Room (Commercially Important Person Room):
@@ -11,4 +14,4 @@ HAN (Hotel Association of Nepal) Counter:
 You can book any hotel of your choice from here. Get your hotel voucher and proceed to the assigned hotel.
 
 Pre-paid Taxi:
-Once you step out of the arrival gate, the pre-paid taxi service is on your left. You can pay in advance. The rates are made visible as they are exhibited on the board.
+Once you step out of the arrival gate, the pre-paid taxi service is on your right. You can pay in advance. The rates are made visible as they are exhibited on the board.
