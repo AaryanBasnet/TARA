@@ -1,196 +1,102 @@
-# ✈️ TIA Virtual Assistant — Tribhuvan International Airport Helpdesk (EN/NE)
+# TIA Smart Arrival Assistant
 
-A multilingual, intelligent virtual help desk for Kathmandu’s Tribhuvan International Airport (TIA). It provides travelers with real-time flight status, live weather, and accurate facility information using a RAG‑powered LangGraph agent.
+A multilingual (English and Nepali) virtual help desk for Tribhuvan International Airport (TIA), Kathmandu. A traveller can ask about flights, weather, customs rules and airport facilities, verify identity for a SIM card (KYC), and scan a boarding pass. It was built as a thesis project.
 
-Built to be fast, deterministic, and airport‑specific.
-
----
-
-## 🚀 Key Features
-
-### 🧠 1. Smart FAQ Answering (RAG)
-
-* Airport rules & regulations
-* Customs guidelines
-* Baggage allowance
-* Prohibited items
-* Facilities & services
-
-**Powered by:**
-
-* Chroma Vector DB
-* HuggingFace MiniLM-L6-v2 embeddings
-* Strict RAG chain enforcing tool-only responses
-
-### ✈️ 2. Live Flight Status Lookup
-
-Supports queries like:
-
-* *"What is the status of RA205?"*
-* *"SQ700 को स्थिति के छ?"*
-
-**Uses:**
-
-* Structured JSON flight data (local mock)
-* Robust flight‑code extraction to avoid translation errors
-
-### ☀️ 3. Real-Time Kathmandu Weather
-
-Provides:
-
-* Temperature
-* Wind
-* Visibility
-* Conditions
-
-**API:** Open-Meteo
-
-### 🌐 4. Multilingual (English + Nepali)
-
-A translation layer handles:
-
-* Automatic language detection
-* Protecting flight codes
-* EN ↔ NE round‑trip integrity
-* Smooth multi-language conversation memory
-
-### 🧩 5. ReAct Agent with Tool Enforcement (LangGraph)
-
-The agent uses three tools:
-
-1. Flight Status Tool (mandatory for flight queries)
-2. Weather Tool (mandatory for weather queries)
-3. RAG Tool (mandatory for airport info)
-
-The agent **cannot hallucinate** due to:
-
-* Strict system routing rules
-* No direct LLM answers allowed
-* Every response must come from one of the tools
+Everything runs locally: the language model is served by Ollama, so no paid API is needed.
 
 ---
 
-## 🛠️ Technology Stack
-
-| Layer           | Technology                      |
-| --------------- | ------------------------------- |
-| Frontend/UI     | Streamlit                       |
-| LLM             | Ollama — qwen2:7b               |
-| Agent Framework | LangChain + LangGraph           |
-| RAG             | Chroma Vector DB                |
-| Embeddings      | MiniLM-L6-v2                    |
-| Weather API     | Open-Meteo                      |
-| Flight Data     | Local JSON (AeroDataBox mock)   |
-| Translation     | Custom EN/NE translation system |
-
----
-
-## 📂 Recommended Project Structure
+## How it works
 
 ```
-/app.py                 # Main Streamlit app
-/flight_tools.py        # Flight & weather tools
-/translation_tools.py   # Language utilities
-/db/                    # Chroma vector DB (ignored in Git)
-/ingest.py              # Build vector database
-/.env                   # API keys
+React frontend (Vite, port 3000)
+        |  /api/*  (proxied)
+        v
+FastAPI backend (port 8000)
+        |
+        +-- /api/chat ---> language detection ---> (Nepali -> English)
+        |                          |
+        |                          v
+        |                  LangGraph ReAct agent  (qwen2.5:3b via Ollama)
+        |                   |        |        |        |
+        |   general info    |  flight |  weather|  route |  SIM KYC
+        |   (RAG, Chroma)   |  status | (Open-  | search | (MRZ + face)
+        |                   |  (cache)|  Meteo) |        |
+        |                          |
+        |                          v
+        |                  answer ---> (English -> Nepali)
+        |
+        +-- /api/kyc/verify, /api/boarding-pass/scan   (OCR + validation)
+        +-- /api/flights, /api/weather, /api/evaluation, /api/health
 ```
 
----
+- **Agent:** a LangGraph ReAct agent with a system prompt that routes each question to a tool. The answer has to come from a tool, which limits hallucination.
+- **RAG:** airport documents are split into chunks, embedded with `all-MiniLM-L6-v2` and stored in Chroma (`db_new/`). Retrieval uses MMR (fetch 20, keep 6) after a keyword-expansion step.
+- **Flights:** read from `flight_cache.json`, a saved snapshot from the AviationStack API. It is not live unless you refresh it with an API key (`flight_data_engine.py`).
+- **Weather:** live from the Open-Meteo API.
+- **Translation:** Nepali questions are translated to English, answered, and translated back with `deep-translator` (Google Translate's free endpoint). If that service rate-limits, the app falls back to the untranslated text.
+- **KYC and boarding pass:** EasyOCR and OpenCV read documents; passport MRZ lines are checked with the ICAO 9303 check-digit algorithm; faces are compared with `face_recognition`.
 
-## 🧰 Setup & Installation
+## Tech stack
 
-### 1. Clone Repository
+| Layer | Technology |
+| --- | --- |
+| Frontend | React, Vite, Tailwind CSS, Framer Motion |
+| Backend | Python, FastAPI, Uvicorn |
+| Agent | LangChain, LangGraph |
+| LLM | Ollama, `qwen2.5:3b` |
+| Retrieval | Chroma, sentence-transformers (`all-MiniLM-L6-v2`) |
+| Documents | EasyOCR, OpenCV, `face_recognition` (optional) |
+| Data | Open-Meteo (weather), AviationStack snapshot (flights) |
 
-```
-git clone https://github.com/AaryanBasnet/TARA.git
-cd TIA-Virtual-Assistant
-```
+## Run it
 
-### 2. Create Virtual Environment
+You need Python 3.13 (3.14 is too new for some of the packages), Node 18+ and [Ollama](https://ollama.com).
 
-```
-python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
-```
+```bash
+# 1. Python environment
+python -m venv .venv
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
+pip install -r requirements.txt    # dlib / face_recognition are optional (KYC face match only)
 
-### 3. Install Dependencies
+# 2. The language model
+ollama pull qwen2.5:3b
 
-```
-pip install -r requirements.txt
-```
+# 3. Backend (http://localhost:8000)
+cd backend
+uvicorn main:app --port 8000
 
-### 4. Pull the LLM
-
-```
-ollama pull qwen2:7b
-```
-
-(Use llama3 or any other model if preferred.)
-
-### 5. Create `.env` File
-
-```
-OPENMETEO_API_URL="https://api.open-meteo.com/"
-AERODATABOX_KEY="your_api_key_if_using_real_data"
-```
-
-### 6. Build the Vector Database
-
-```
-python ingest.py
+# 4. Frontend, in a second terminal (http://localhost:3000)
+cd frontend
+npm install
+npm run dev
 ```
 
-This script:
+The vector database in `db_new/` is already built. To rebuild it from `knowledge_base/`, run `python ingest.py`.
 
-* Loads airport documents
-* Splits & chunks text
-* Embeds using MiniLM-L6-v2
-* Stores them in ChromaDB
+Optional: copy `.env.example` to `.env` and add an `AVIATIONSTACK_API_KEY` to refresh the flight data.
 
-### ▶️ Run the Application
+The first start takes a while: it loads the embedding model and downloads an NLTK tokenizer.
 
-Start Ollama, then run:
+## Example questions
 
-```
-streamlit run app.py
-```
+- "Where is the smoking area?"
+- "What is the status of flight SQ700?"
+- "What is the weather in Kathmandu?"
+- "How many phones can I bring into Nepal?"
+- "RA205 को स्थिति के छ?"
 
----
+## Evaluation
 
-## 🧪 Example Queries
+`evaluation/` holds the scripts and saved results used in the thesis: a 50-question test set, retrieval and answer-quality metrics (faithfulness and answer relevancy), tool-selection accuracy, response time, and checks for the passport and boarding-pass code. See `evaluation/README.md`. The sample sizes are small, so treat the numbers as indicative.
 
-* *"What items are prohibited in hand luggage?"*
-* *"RA205 को स्थिति के छ?"*
-* *"Is there a prepaid taxi at the arrival gate?"*
-* *"What is today’s weather at TIA?"*
-* *"Where is the immigration area located?"*
+## Known limitations
 
----
+- The flight data is a saved snapshot, not a live feed.
+- Translation depends on a free Google endpoint and can silently fall back to English.
+- Boarding-pass OCR accuracy is low on the three sample images tested.
+- A 3B-parameter local model is fast and free but less accurate than a hosted model.
 
-## 🛡️ Why This Assistant Is Reliable
+## License
 
-* Hallucination‑proof (tool‑only answers)
-* Airport‑specific RAG data
-* Deterministic routing: **flight → weather → RAG**
-* English + Nepali support
-* Safe handling of flight codes during translation
-
----
-
-## 📌 Future Improvements
-
-* Integrate real AeroDataBox flight API
-* Terminal maps & navigation
-* Voice input (Whisper)
-* Staff panel to manage FAQ database
-
----
-
-## 📜 License
-
-MIT License
-
----
-
-
+MIT
