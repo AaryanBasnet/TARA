@@ -894,13 +894,34 @@ async def get_evaluation_results():
 
 @app.get("/api/flights")
 async def flights():
+    """Flights for the flight board, from the saved snapshot in flight_cache.json.
+
+    The cache stores one list under "flights" with the fields flight, route, time
+    and type ("Arrival" or "Departure"). The board expects flight_number, origin,
+    destination, scheduled and a lowercase type, so each flight is mapped here.
+    """
     try:
         if os.path.exists(FLIGHT_CACHE_FILE):
-            with open(FLIGHT_CACHE_FILE) as f:
+            with open(FLIGHT_CACHE_FILE, encoding="utf-8") as f:
                 data = json.load(f)
-            return {"flights": data.get("arrivals", []) + data.get("departures", [])}
-    except:
-        pass
+            board = []
+            for i, fl in enumerate(data.get("flights", [])):
+                is_arrival = fl.get("type", "").lower() == "arrival"
+                route = fl.get("route", "")
+                board.append({
+                    "id": i + 1,
+                    "flight_number": fl.get("flight", ""),
+                    "airline": fl.get("airline", ""),
+                    "type": "arrival" if is_arrival else "departure",
+                    "origin": route if is_arrival else "Kathmandu (KTM)",
+                    "destination": "Kathmandu (KTM)" if is_arrival else route,
+                    "scheduled": fl.get("time", ""),
+                    "estimated": fl.get("time", ""),
+                    "status": fl.get("status", "Unknown"),
+                })
+            return {"flights": board, "last_updated": data.get("last_updated")}
+    except (OSError, ValueError) as e:
+        print(f"Flight cache could not be read: {e}")
     return {"flights": []}
 
 
